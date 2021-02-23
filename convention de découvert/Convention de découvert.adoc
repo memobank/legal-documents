@@ -1,0 +1,322 @@
+= Convention de découvert
+Memo Bank <contact@memo.bank>
+2020-09-07
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:sectnums:
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 10 000 000,00 euros
+:website-url: https://memo.bank/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:euribor-url: https://www.euribor-rates.eu/fr/
+:contact-email: contact@memo.bank
+:privacy-email: protectiondesdonnees@memo.bank
+:termination-email: resiliation-decouvert@memo.bank
+:withdrawal-email: retractation-decouvert@memo.bank
+
+
+== Comment lire ce document
+
+Memo Bank tient à présenter des documents juridiques clairs à ses clients. Nous faisons tout notre possible pour simplifier au maximum la lecture des contrats que vous signez. Si une partie de ce texte vous semble complexe à comprendre, n’hésitez pas à nous contacter.
+
+Les termes que nous avons jugés essentiels commencent par une majuscule (par exemple : <<account>>) et sont définis dans le glossaire figurant ci-après. Nous vous invitons aussi à compléter votre lecture par {help-url}[notre aide en ligne].
+
+
+== La convention de découvert
+
+Cette convention de découvert est conclue entre :
+
+la société ${company_name} (désignée par « vous » dans ce document), ${company_type} au capital social de ${company_issued_capital}, immatriculée sous le numéro SIREN ${company_siren}, ayant son siège social au ${company_address}, et dont l’identifiant chez Memo Bank est ${customer_public_id} (ci-dessus et ci-après appelé la « Société ») et dûment représentée par ${first_name} ${last_name} en qualité de ${user_role} ;
+
+et
+
+Memo Bank (désignée par « nous » dans ce document), société anonyme au capital de {memo-bank-capital}, immatriculée au Registre du Commerce et des Sociétés de Paris sous le n°{memo-bank-siren}, ayant son siège social {memo-bank-address}. Memo Bank a un agrément d’établissement de crédit et est contrôlée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) située au 4 place de Budapest 75436 Paris Cedex 09.
+
+La convention de découvert sera dénommée la « Convention » dans ce document, pour simplifier votre lecture. 
+
+Cette Convention détaille les conditions dans lesquelles, sur votre demande, nous vous consentons une autorisation de découvert (appelé ensuite le « <<overdraft>> »), c’est-à-dire une autorisation d’effectuer sur un <<account>> de votre <<workspace>> des Opérations de paiement ayant pour conséquence de rendre votre Compte débiteur, selon les conditions et limites fixées ci-dessous.
+
+
+== Comment communiquer ensemble
+
+Nous communiquons par défaut en français. Vous pouvez nous joindre :
+
+* par courrier électronique à l’adresse {contact-email} ;
+* par voie postale à l’adresse suivante : Memo Bank, {memo-bank-address}.
+
+== Définitions
+[glossary]
+
+[[overdraft]]Découvert:: Autorisation que nous vous accordons d’être en position débitrice sur votre Compte, dans la limite du Montant du Découvert et de la Durée d’Utilisation du Découvert.
+
+[[account]]Compte:: Compte bancaire ouvert à votre nom dans nos livres.
+
+[[workspace]]Espace de travail:: Interface en ligne dédiée à une personne morale, à laquelle chaque [.def]#<<user>># authentifié a accès.
+
+[[holder]]Titulaire:: Personne physique, représentant légal d’une personne morale (société), ayant signé les Conditions particulières de la Convention au nom et pour le compte de cette personne morale.
+
+[[power_of_attorney]]Procuration:: Pouvoir donné à une autre personne d’agir en votre nom.
+
+[[user]]Utilisateur:: [.def]#<<holder>># et toute personne ayant reçu une [.def]#<<power_of_attorney>># pour utiliser un [.def]#<<workspace>>#.
+
+[[interests]]Intérêts:: Montants que nous percevons après application de taux, en contrepartie du [.def]#<<overdraft>># octroyé. Ces Intérêts sont la somme :
+* des intérêts perçus sur le [.def]#<<overdraft-used-amount>>#, en y appliquant le [.def]#<<usage-rate>># le cas échéant ;
+* des commissions perçues sur le [.def]#<<overdraft-unused-amount>>#, en y appliquant le [.def]#<<non-usage-rate>># le cas échéant ;
+* des intérêts perçus sur le [.def]#<<overrun-amount>>#, en y appliquant le [.def]#<<increased-rate>># le cas échéant.
+
+[[overdraft-amount]]Montant du Découvert:: Montant maximal du découvert autorisé de votre [.def]#<<account>>#, fixée dans le cadre du Découvert. Au-delà de cette limite, vous êtes en situation de [.def]#<<overrun>>#.
+
+[[overdraft-maximum-usage-duration]]Durée maximale d’utilisation du Découvert:: Durée maximale pendant laquelle votre [.def]#<<account>># peut être en solde débiteur, fixée dans le cadre du [.def]#<<overdraft>>#. Au-delà de cette limite, vous êtes en situation de [.def]#<<overrun>>#.
+
+[[overdraft-used-amount]]Montant utilisé:: Le Montant utilisé du [.def]#<<overdraft>># est égal :
+* si le solde du Compte est débiteur : au solde du Compte (en valeur absolue) ;
+* si le solde du Compte est créditeur : à 0.
+
+[[overdraft-unused-amount]]Montant non-utilisé:: Le Montant non-utilisé du [.def]#<<overdraft>># est égal :
+* si le solde du Compte est débiteur : à la différence entre le [.def]#<<overdraft-amount>># et le solde débiteur (en valeur absolue) ;
+* si le solde du Compte est créditeur : au [.def]#<<overdraft-amount>>#.
+
+[[overrun]]Dépassement:: Un Dépassement peut avoir lieu sur votre Compte dans deux situations :
+* [.def]#<<amount-overrun>>#
+* [.def]#<<duration-overrun>>#
+
+[[amount-overrun]]Dépassement en montant:: Correspond à la situation où le solde du Compte est débiteur et dépasse (en valeur absolue) le [.def]#<<overdraft-amount>>#.
+
+[[duration-overrun]]Dépassement en durée:: Correspond à la situation où la [.def]#<<overdraft-maximum-usage-duration>># a été dépassée. Si par exemple votre Durée maximale d’utilisation du Découvert est de 30 jours, c’est le cas si le solde de votre Compte n’est pas revenu en position créditrice depuis 31 jours ou plus.
+
+[[overrun-amount]]Montant en Dépassement:: Le Montant en Dépassement est égal :
+* en cas de [.def]#<<amount-overrun>>#, à la différence entre le solde débiteur du Compte (en valeur absolue) et le [.def]#<<overdraft-amount>># ;
+* en cas de [.def]#<<duration-overrun>>#, au solde débiteur (en valeur absolue) de votre Compte.
+
+[[usage-rate]]Taux d’utilisation:: Taux applicable au [.def]#<<overdraft-used-amount>>#, et qui permet de calculer les [.def]#<<interests>>#.
+
+[[non-usage-rate]]Taux de non-utilisation:: Taux applicable au [.def]#<<overdraft-unused-amount>>#, et qui permet de calculer les [.def]#<<interests>>#.
+
+[[increased-rate]]Taux majoré:: Taux applicable au [.def]#<<overrun-amount>>#, et qui permet de calculer les Intérêts.
+
+[[three-months-euribor]]Euribor 3 mois:: L’Euribor est l’abréviation d’Euro Interbank Offered Rate. L’Euribor 3 mois désigne le taux interbancaire à 3 mois, c’est à dire le taux d’intérêt moyen auquel un grand nombre de banques européennes de premier plan se consentent des prêts libellés en euros et dont les emprunts ont une échéance de 3 mois. Ce taux est exprimé sous forme de taux annuel et fixé chaque jour ouvrable à 11h00 en heure normale d’Europe centrale (_Central European Time_).
++
+Pour connaître la valeur de ce taux, vous pouvez vous référer {euribor-url}[au site internet de l’Euribor].
++
+Dans cette Convention, l’Euribor 3 mois applicable le mois N est le dernier taux Euribor 3 mois constaté le 28 du mois N-1, avec un plancher à 0. Ainsi, si l’Euribor 3 mois est négatif, la valeur applicable sera 0.
+Nous vous informerons de la variation de l’Euribor 3 mois par une mention portée sur le récapitulatif de frais de découvert, disponible sur votre Espace de travail.
++
+En cas de disparition de l’Euribor 3 mois et de substitution d’un taux de même nature ou équivalent, ainsi qu’en cas de modification affectant l’organisme le publiant ou les modalités de publication, le taux issu de cette modification ou de cette substitution s’appliquera de plein droit et toute référence à l’Euribor 3 mois sera réputée être une référence à ce taux.
+
+[[annual-percentage-rate-of-charge]]Taux Effectif Global:: Taux incluant tous les frais accessoires au Découvert - notamment les <<overdraft-fees>>.
+
+[[overdraft-fees]]Frais de Dossier:: Ce sont les frais prélevés en contrepartie du traitement de votre dossier :
+* lors de l’octroi initial du Découvert, lorsqu’une première analyse de votre situation est effectuée ;
+* après chaque nouvelle analyse de votre situation par notre équipe spécialisée — à l’occasion d’une demande de révision de votre part dans les conditions définies au <<revision>>, ou à défaut, chaque année après réception de vos états financiers.
+
+[[unfavourable-significative-effect]]Effet Significatif Défavorable:: Tout effet significatif défavorable impactant immédiatement ou à terme votre capacité à satisfaire vos obligations de paiement au titre de la Convention.
+
+[[payment_operation]]Opération de Paiement:: Une des opérations de paiement que nous proposons, détaillées dans les Conditions Générales de la Convention de Services que vous avez signée.
+
+[[cold_call]]Démarchage bancaire:: Toute prise de contact non sollicitée, par quelque moyen que ce soit, avec une personne physique ou une personne morale déterminée, en vue d’obtenir, de sa part, un accord notamment sur la fourniture d’un service de paiement au sens des articles L. 341-1 et suivants du code monétaire et financier, sauf dérogations légales.
+
+
+
+[[conditions]]
+== Conditions du Découvert
+
+[cols="2*"]
+|===
+
+| <<workspace>> concerné par le Découvert
+| Espace du travail lié à l’identifiant Memo Bank ${customer_public_id}
+
+| Objet du Découvert
+| 
+
+| Montant du Découvert
+| Le Compte peut être débiteur dans la limite d’un montant maximum de ${overdraft_amount} €.
+
+| Durée d’Utilisation du Découvert
+| Nous vous autorisons à rendre le solde de votre Compte débiteur dans la limite fixée ci-dessus et pendant des périodes qui ne peuvent excéder chacune ${overdraft-maximum-period-days} jours consécutifs à compter du premier jour où le solde de votre Compte devient débiteur. Votre Compte doit impérativement redevenir créditeur entre chaque période. 
+
+| Paiement des <<interests>>
+| Les Intérêts sont prélevés à terme échu, chaque ${interests-payment-period} directement sur votre Compte, ce que vous acceptez.
+
+| <<usage-rate>>
+| C’est le taux d’intérêt applicable au Montant Utilisé du Découvert. Il correspond au taux variable <<three-months-euribor>> augmenté d’une marge égale à ${usage-rate-margin} % par an. 
+
+Par exemple, sur le mois de ${current-month}, l’Euribor 3 mois applicable est égal à ${current-three-months-euribor-rate} %, et le Taux d’Utilisation ressort, après application de la marge, à ${current-usage-rate} %.
+
+Les intérêts sont calculés pour le nombre exact de jours écoulés rapporté à une année de trois cent soixante (360) jours.
+
+| Commission de non-utilisation
+| C’est la commission applicable au <<overdraft-unused-amount>> du Découvert, en rémunération de notre engagement. Elle est calculée à partir du <<non-usage-rate>> appliqué au Montant non-utilisé. Le <<non-usage-rate>> est égal au taux variable <<three-months-euribor>> augmenté d’une marge égale à ${non-usage-rate-margin} % par an. 
+
+Par exemple, sur le mois de ${current-month}, l’Euribor 3 mois applicable est égal à ${current-month-three-months-euribor}, et le Taux de Non-Utilisation ressort, après application de la marge, à ${current-non-usage-rate} %.
+
+Les intérêts seront calculés pour le nombre exact de jours écoulés rapporté à une année de trois cent soixante (360) jours.
+
+| <<increased-rate>>
+| Tout <<overrun>> en montant ou en durée est traité comme un découvert non autorisé. Le Taux Majoré est alors le taux applicable chaque jour au <<overrun-amount>>, tant que le Dépassement n’est pas régularisé. Le Taux Majoré est égal à : <<usage-rate>> + 3 %. 
+
+Les intérêts seront calculés pour le nombre exact de jours écoulés rapporté à une année de trois cent soixante (360) jours.
+
+| <<annual-percentage-rate-of-charge>>
+| Le Taux Effectif Global appliqué figure chaque mois sur le récapitulatif de frais de découvert, disponible sur votre <<workspace>>. Il inclut tous les intérêts effectivement facturés, ainsi que tous les frais liés au Découvert (notamment les <<overdraft-fees>>). Il représente le coût total réel de l’utilisation que vous avez fait du Découvert.
+
+Il est obtenu en multipliant le taux actuariel quotidien par 365 selon la méthode proportionnelle.
+
+Exemple de calcul de Taux Effectif Global (à titre indicatif) : dans l’hypothèse d’une utilisation intégrale du montant du Découvert pendant 30 jours consécutifs, et d’un retour en solde créditeur à l’issue de ces 30 jours, en supposant un Euribor 3 Mois égal à ${current-month-three-months-euribor}, le Taux Effectif Global ressort à ${current-teg} %.
+
+| <<overdraft-fees>>
+| ${overdraft-fees} €. Ces frais sont prélevés sur votre Compte dès signature de cette Convention. Ils sont ensuite prélevés après chaque analyse de votre Découvert par notre équipe spécialisée — à l’occasion d’une demande de révision de votre part dans les conditions définies au <<revision>>, ou à défaut, chaque année après réception de vos états financiers.
+
+|===
+
+
+== Dépassement
+
+Toute <<payment_operation>> entraînant un <<overrun>> est par principe rejetée, faute d’autorisation de notre part. Toutefois, nous pouvons être amenés exceptionnellement, et par dérogation, à accepter d’exécuter une Opération de Paiement entraînant un Dépassement. Cela ne constitue pas pour autant une acceptation de notre part à augmenter le <<overdraft-amount>> ou à allonger la <<overdraft-maximum-usage-duration>> - une telle acceptation ne pouvant avoir lieu que dans le cadre décrit au <<revision>>. En conséquence, vous vous engagez à régulariser sans délai tout Dépassement. À défaut de régularisation, nous nous réservons le droit de résilier la Convention dans les conditions prévues au <<termination>>.
+
+Pour rappel, tout Dépassement donne lieu au paiement du <<increased-rate>> fixé au <<conditions>>.
+
+Toute Opération de Paiement entraînant un Dépassement est susceptible de donner lieu à des frais en application des Conditions tarifaires de la Convention de Services.
+
+
+== Déclarations et engagements
+
+À la date de signature de la Convention, vous déclarez que :
+
+* aucun événement susceptible d’avoir un <<unfavourable-significative-effect>> n’est en cours ;
+* aucune information qui nous a été fournie jusqu’à la signature de cette Convention n’est inexacte ou susceptible de nous induire en erreur sur un quelconque point significatif ;
+* les documents comptables, fiscaux et financiers que vous nous avez remis pour l’analyse de votre demande sont exacts, et donnent une image fidèle de votre actif, passif et résultats pour chaque exercice. Les comptes sociaux communiqués ont été préparés conformément aux principes comptables généralement observés en France ;
+* aucune instance, action, procès ou procédure administrative n’est en cours ou n’est sur le point d’être engagée qui pourrait avoir un Effet Significatif Défavorable.
+
+Pendant toute la durée de la Convention, vous vous engagez à :
+
+* nous remettre chaque année, dès leur établissement et au plus tard dans un délai maximum de six mois à compter de la clôture de chaque exercice : 
+** les copies certifiées conformes par vos Commissaires aux Comptes de vos bilans annuels et compte de résultats accompagnés des rapports des Commissaires aux Comptes ;
+** la copie de vos liasses fiscales certifiées conformes par votre dirigeant ; 
+* nous communiquer, en cas de demande expresse de notre part, tous documents et informations sur votre situation économique, comptable et financière ;
+* nous informer sans délai dans l’hypothèse où l’une des déclarations visées ci-dessus se révèle fausse ou inexacte pendant la durée de la Convention ;
+* nous informer préalablement de tout projet de fusion, scission, apport partiel d’actifs ou toute autre opération de restructuration similaire vous impactant ;
+* nous informer préalablement de tous projets relatifs à un changement de contrôle (au sens de l’article L 233-3 du code de commerce) vous impactant.
+
+[[revision]]
+== Révision
+
+Pour rester adapté en permanence à votre situation, les conditions du Découvert sont révisables à tout moment par vous ou par nous, selon les modalités ci-dessous. Lorsqu’elles sont à notre initiative, ces révisions interviennent généralement à la suite de l’analyse de votre Découvert par notre équipe spécialisée, qui a lieu par défaut chaque année après réception de vos états financiers.
+
+=== Révision de taux ou de Frais de dossier
+
+En cas de modification de la formule permettant de déterminer le Taux d’Utilisation, le Taux de Non-Utilisation, le Taux Majoré ou les Frais de dossiers, nous vous en informerons par courrier électronique à l’adresse e-mail renseignée dans votre Espace de travail au plus tard 15 jours avant l’application de la modification.
+
+Si vous refusez ces modifications, vous devez nous en informer avant la date d’application de la modification par courrier électronique à l’adresse {contact-email};
+
+À défaut, nous considérerons que vous avez accepté ces modifications.
+
+=== Révision du Montant du Découvert
+
+==== Réduction du Montant du Découvert
+
+Vous pouvez à tout moment demander à réduire le Montant du Découvert sans préavis. Vous devez alors nous en informer par courrier électronique à l’adresse {contact-email}, en précisant la date d’effet souhaitée de la réduction sollicitée.
+
+Nous pouvons aussi à tout moment réduire le Montant du Découvert, sans avoir à motiver notre décision. Nous vous en informerons alors les Titulaires par courrier électronique à l’adresse e-mail renseignée dans votre Espace de travail avec un préavis de 60 jours. Ce délai de préavis court à compter de la date d’envoi de l’e-mail.
+
+==== Augmentation du Montant du Découvert
+
+Vous pouvez à tout moment nous demander une augmentation du <<overdraft-amount>>. Cette demande implique une nouvelle analyse de votre dossier par nos équipes, et la conclusion d’un avenant.
+
+=== Autres révisions
+
+Nous pouvons à tout moment réviser d’autres clauses de la Convention. Nous vous en informerons par courrier électronique les Titulaires à l’adresse e-mail renseignée dans votre Espace de travail au plus tard 15 jours avant l’application de la modification.
+
+Si vous refusez ces modifications, vous devez nous en informer avant la date d’application de la modification par courrier électronique à l’adresse {contact-email}. 
+
+À défaut, nous considérerons que vous avez accepté ces modifications.
+
+
+[[termination]]
+== Durée - Résiliation
+
+=== Durée
+
+La Convention est conclue pour une durée indéterminée.
+
+=== Résiliation à votre initiative
+
+Vous pouvez à tout moment résilier la Convention sans préavis ni indemnité. 
+
+Pour cela vous devez nous en informer par courrier électronique à l’adresse {termination-email}.
+
+La résiliation sera effective dès réception de votre demande. Le solde de votre compte devra impérativement être créditeur à cette date ; à défaut les sommes en débit sur votre Compte seront considérées comme un <<overrun-amount>>, et à ce titre se verront appliquer le <<increased-rate>>.
+
+=== Résiliation à notre initiative
+
+Nous pouvons résilier la Convention à tout moment, sans avoir à motiver notre décision. Nous vous en informerons alors par simple lettre recommandée avec accusé de réception envoyée à l’adresse postale de référence renseignée dans votre Espace de travail, ou par lettre recommandée électronique envoyée à l’adresse e-mail des Titulaires renseignée dans votre Espace de travail, avec un préavis de 60 jours. Ce délai de préavis court à compter de la date d’envoi de la lettre recommandée ou de la lettre recommandée électronique.
+
+Nous pouvons aussi résilier la Convention sans avoir à respecter aucun délai de préavis dans les cas suivants :
+
+* en cas de comportement gravement répréhensible de votre part. À titre d’exemple, cela inclut les situations suivantes :
+** la communication ou remise de documents qui se révèlent inexacts, faux ou falsifiés, notamment les comptes sociaux ; 
+** les Dépassements importants et réitérés du Découvert, en dépit des rappels et mises en garde de notre part ;
+** une condamnation en matière pénale (hors contravention) ;
+* au cas où votre situation se révélerait irrémédiablement compromise.
+
+Le solde de votre compte devra alors être créditeur ; à défaut les sommes en débit sur votre Compte seront considérées comme un <<overrun-amount>>, et à ce titre se verront appliquer le <<increased-rate>>.
+
+== Droit de rétractation
+
+Dans l’hypothèse où la Convention aurait été conclue dans le cadre d’une opération de <<cold_call>>, vous disposez d’un délai de 14 jours à compter de sa signature pour exercer votre droit de rétractation, en nous envoyant un email à l’adresse {withdrawal-email}. Vous êtes alors tenus de nous restituer toutes les éventuelles dettes en cours (notamment le solde de votre Compte s’il est débiteur), tandis que nous sommes tenus de vous restituer le solde de votre Compte, s’il est créditeur. Toute somme que vous nous devrez produira intérêt au <<increased-rate>> jusqu’au parfait paiement.
+
+== Convention sur la preuve
+
+Vous reconnaissez et acceptez que le procédé de signature électronique utilisé pour conclure la Convention vous est opposable, manifeste votre consentement aux droits et obligations découlant de la Convention et produit des effets juridiques au même titre qu’une signature manuscrite. Cette Convention signée sous forme électronique a donc la qualité d’un document original ayant force probante.
+
+Concernant les informations transmises par courrier électronique — notamment en cas de révision (<<revision>>) ou de résiliation (<<termination>>) — vous serez réputé avoir pris connaissance de manière incontestable des messages, informations et pièces attachées du seul fait de leur expédition à l’adresse e-mail renseignée dans l’Espace de travail.
+
+== Données à caractère personnel
+
+Nous pouvons être amenés à recueillir des données à caractère personnel vous concernant (et plus particulièrement, les représentants légaux, les bénéficiaires effectifs et les <<user>>s). Ces données peuvent être rassemblées, enregistrées, stockées, adaptées, consultées, transférées ou traitées et utilisées par nos soins. Nous sommes le responsable du traitement de ces données à caractère personnel. Les données à caractère personnel collectées et traitées par nos soins à l’ouverture du compte et dans le cours de son fonctionnement sont nécessaires :
+
+* à la conclusion et à l’exécution de la Convention ;
+* au respect et à l’exécution de nos obligations légales ou réglementaires ;
+* à la poursuite de nos intérêts légitimes ou ceux d’un tiers et ce, dans le respect de vos droits fondamentaux.
+
+Vous acceptez expressément que nous procédions au traitement des données à caractère personnel collectées et nous autorisez à communiquer toute information utile les concernant à toute personne contribuant à la réalisation des services fournis par nos soins notamment pour l’exécution des prestations de service ou tâches sous-traitées.
+
+Vous disposez notamment d’un droit d’accès et d’information, de rectification, d’effacement de vos données personnelles. Vous pouvez exercer vos droits, à tout moment et gratuitement, à intervalle raisonnable, auprès du délégué à la protection des données par courrier électronique à l’adresse suivante : {privacy-email}.
+
+Vous pouvez, en cas de litige, vous adresser à la Commission nationale de l’informatique et des libertés (CNIL). Pour saisir la CNIL, il convient d’adresser un simple courrier à l’attention du président de la CNIL, Commission nationale de l’informatique et des libertés – 3, Place de Fontenoy – TSA 20715 – 75334 PARIS CEDEX 07.
+
+== Divers
+
+En cas de conflit entre le contenu de cette Convention et le contenu de toute autre accord (oral ou écrit) entre vous et nous au sujet du Découvert, le contenu de cette Convention prévaudra.
+
+Vous acceptez par ailleurs d’assumer l’ensemble des risques qui pourraient résulter d’un changement de circonstances rendant l’exécution de la Convention excessivement onéreuse pour vous. Ce faisant, vous renoncez à vous prévaloir de l’article 1195 du Code civil relatif à l’imprévision.
+
+== Loi applicable
+
+La loi applicable est la loi française. Tout litige relatif à cette autorisation de découvert relève, à défaut de résolution amiable, de la cour d’appel de Paris.
+

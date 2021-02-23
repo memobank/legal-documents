@@ -1,0 +1,392 @@
+= Convention de prêt
+Memo Bank <contact@memo.bank>
+2021-01-29
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:sectnums:
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:sectnumlevels: 5
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 10 000 000,00 euros
+:website-url: https://memo.bank/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:contact-email: contact@memo.bank
+:privacy-email: protectiondesdonnees@memo.bank
+:withdrawal-email: retractation-pret@memo.bank
+
+
+== Comment lire ce document
+
+Memo Bank tient à présenter des documents juridiques clairs à ses clients. Nous faisons tout notre possible pour simplifier au maximum la lecture des contrats que vous signez. Si une partie de ce texte vous semble complexe à comprendre, n’hésitez pas à nous contacter.
+
+Les termes que nous avons jugés essentiels commencent par une majuscule (par exemple : <<account>>) et sont définis dans le glossaire figurant ci-après. Nous vous invitons aussi à compléter votre lecture par {help-url}[notre aide en ligne].
+
+== La convention de prêt
+
+Cette convention de prêt est conclue entre :
+
+la société ${company_name} (désignée par « vous » dans ce document), ${company_type} au capital social de ${company_issued_capital}, immatriculée sous le numéro SIREN ${company_siren}, ayant son siège social au ${company_address}, et dont l’identifiant chez Memo Bank est ${customer_public_id} (ci-dessus et ci-après appelé la « Société ») et dûment représentée par ${first_name} ${last_name} en qualité de ${user_role} ;
+
+et
+
+Memo Bank (désignée par « nous » dans ce document), société anonyme au capital de {memo-bank-capital}, immatriculée au Registre du Commerce et des Sociétés de Paris sous le n°{memo-bank-siren}, ayant son siège social {memo-bank-address}. Memo Bank a un agrément d’établissement de crédit et est contrôlée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) située au 4 place de Budapest 75436 Paris Cedex 09.
+
+La convention de prêt sera dénommée la « Convention » dans ce document, pour simplifier votre lecture.
+
+Cette Convention détaille les conditions dans lesquelles, sur votre demande, nous vous consentons un prêt (appelé ensuite le « Prêt »), selon les conditions fixées ci-dessous.
+
+== Comment communiquer ensemble
+
+Nous communiquons par défaut en français. Vous pouvez nous joindre :
+
+* par courrier électronique à l’adresse {contact-email} ;
+* par voie postale à l’adresse suivante : Memo Bank, {memo-bank-address}.
+
+== Définitions
+[glossary]
+
+[[account]]Compte:: Compte bancaire ouvert à votre nom dans nos livres.
+
+[[main_account]]Compte principal:: Premier compte bancaire ouvert à votre nom dans nos livres.
+
+[[workspace]]Espace de travail:: Interface en ligne dédiée à une personne morale, à laquelle chaque [.def]#<<user>># authentifié a accès.
+
+[[holder]]Titulaire:: Personne physique, représentant légal d’une personne morale (société), ayant signé les Conditions particulières de la Convention de services au nom et pour le compte de cette personne morale.
+
+[[power_of_attorney]]Procuration:: Pouvoir donné à une autre personne d’agir en votre nom.
+
+[[user]]Utilisateur:: [.def]#<<holder>># et toute personne ayant reçu une [.def]#<<power_of_attorney>># pour utiliser un [.def]#<<workspace>>#.
+
+[[deferred-period]]Période de Différé:: Elle débute à la date de décaissement. Elle est constituée d’un nombre défini d’échéances qui ne contiennent que des intérêts ; le principal n’est ainsi pas amorti. Cette période prend fin à la date de la dernière échéance de ce type, indiquée dans votre échéancier.
+
+[[redemption-period]]Période d’Amortissement::
+Elle débute à la fin de la Période de Différé. Elle est constituée d’un nombre défini d’échéances qui contiennent intérêts et principal ; le principal est ainsi amorti. Cette période prend fin à la date de la dernière échéance de ce type, indiquée dans votre échéancier.
+
+[[annual-percentage-rate-of-charge]]Taux Effectif Global:: Taux incluant tous les frais accessoires au Prêt - notamment les [.def]#<<loan-fees>># et les frais de Garantie.
+
+[[guarantees]]Garanties:: Ce sont les éventuelles garanties que nous exigeons comme condition préalable au décaissement du Prêt. Elles doivent être valablement constituées. Elles sont listées au <<guarantees-list>>.
+
+[[default-interests]]Intérêts de retard:: Ce sont des intérêts majorés que nous appliquons dans deux situations :
+* en cas d’échéances impayées, lorsqu’aucune déchéance du terme du Prêt n’a été prononcée. Dans ce cas, les Intérêts de retard sont calculés sur le montant des échéances impayées ;
+* en cas de déchéance du terme prononcée. Dans ce cas, les Intérêts de retard sont calculés sur le montant total des sommes exigibles, conformément au <<early-repayability>>.
+
+[[default-fees]]Frais de retard:: Ce sont les frais exigibles en cas de retard de paiement d’une échéance (sauf si le retard de paiement résulte d’une erreur technique ou administrative). Ils viennent en dédommagement du traitement de la situation d’impayé.
+
+[[loan-fees]]Frais de Dossier:: Ce sont les frais prélevés en contrepartie du traitement de votre dossier. Ils sont exigibles dès signature de cette Convention, et perçus en une seule fois sur votre Compte principal lors du décaissement du Prêt.
+
+[[unfavourable-significative-effect]]Effet Significatif Défavorable:: Tout effet significatif défavorable impactant immédiatement ou à terme votre capacité à satisfaire vos obligations de paiement au titre de la Convention.
+
+[[cold_call]]Démarchage bancaire:: Toute prise de contact non sollicitée, par quelque moyen que ce soit, avec une personne physique ou une personne morale déterminée, en vue d’obtenir, de sa part, un accord notamment sur la fourniture d’un service de paiement au sens des articles L. 341-1 et suivants du code monétaire et financier, sauf dérogations légales.
+
+
+== Conditions particulières
+
+=== Caractéristiques du Prêt
+
+[cols="2*"]
+|===
+
+| Objet du Prêt
+| ${loan-purpose}
+
+| Montant du Prêt en principal
+| ${loan-amount} €
+
+| Taux d’intérêt
+| Taux d'intérêt fixe de ${interest-rate} % par an pendant toute la durée du Prêt.
+
+Les intérêts seront calculés pour le nombre exact de jours écoulés rapportés à une année de trois cent soixante (360) jours.
+
+| Durée du Prêt
+a| Le Prêt est consenti pour une durée totale de ${loan-number-of-months} mois à compter du décaissement, comprenant successivement :
+
+* une période de ${loan-number-of-deferred-months} mois de différé de remboursement du principal (la “<<deferred-period>>”), qui débute à compter du décaissement des fonds ;
+* une période de ${loan-number-of-redemption-months} mois d’amortissement du principal (la “<<redemption-period>>”), qui débute à compter de la fin de la Période de Différé.
+
+| Taux Effectif Global (TEG)
+| Le TEG du Prêt, dans l’hypothèse d’un remboursement intégral du Prêt conformément à l'échéancier visé ci-dessous, est égal à ${teg} %, sur la base d’un taux actuariel ${mensuel/trimestriel} de ${actuarial-rate} %.
+
+Pour information, le TEG inclut tous les frais accessoires au Prêt, dont les <<loan-fees>> et les frais liés aux <<guarantees>>.
+
+| Échéances du Prêt
+| La Période de Différé sera composée de ${loan-number-of-deferred-repayments} échéances ${mensuelles/trimestrielles} constantes d’un montant de ${loan-deferred-repayments} €, la première de ces échéances ayant lieu 1 ${mois/trimestre} après le décaissement des fonds.
+
+La Période d’Amortissement sera composée de ${loan-number-of-redemption-repayments} échéances ${mensuelles/trimestrielles} constantes d’un montant de ${loan-redemption-repayments} €, la première de ces échéances ayant lieu 1 ${mois/trimestre} après la dernière échéance de la Période de Différé.
+
+Toutes les échéances sont prélevées directement sur votre <<main_account>>.
+
+Le tableau d’amortissement comprenant l’échéancier des remboursements de ce Prêt est disponible en <<redemption-table-appendix>>. Une fois la date de décaissement déterminée (voir le <<loan-disbursment-terms>>), une version finale de votre échéancier comprenant les dates exactes de chaque échéance sera mis à disposition sur votre <<workspace>>.
+
+| Garanties et frais liés
+| Les éventuelles garanties requises pour vous octroyer ce Prêt ainsi que les frais liés sont indiqués au <<guarantees-list>>.
+
+| Taux des Intérêts de retard
+a| Les Intérêts de retard sont calculés au taux du Prêt majoré de 3 % l’an. Ils s’appliquent :
+
+* sur le montant des échéances exigibles et impayées, lorsqu’aucune déchéance du terme du Prêt n’a été prononcée ; l’application de ces Intérêts de retard ne fera pas obstacle à notre faculté de prononcer la déchéance du terme (comme indiqué au <<early-repayability>>) ;
+
+* sur le montant total des sommes exigibles, une fois la déchéance du terme du Prêt prononcée (comme indiqué au <<early-repayability>>).
+
+| Frais de retard
+| Ce sont les frais exigibles en cas de retard de paiement d’une échéance (sauf si le retard de paiement résulte d’une erreur technique ou administrative). Ils sont fixés à ${late-repayment-fees} €.
+
+| Frais de dossier
+| Ce sont les frais exigibles dès signature de cette Convention, et prélevés sur votre Compte principal lors du décaissement du Prêt. Ils sont fixés à ${loan-fees} €.
+
+| Compte
+| Nous prélèverons les échéances du Prêt sur un Compte ouvert dans votre Espace de travail. Vous vous engagez à ce qu’il présente un solde suffisant pour le prélèvement de ces échéances.
+
+|===
+
+=== Mise à disposition du Prêt
+
+[[loan-disbursment-terms]]
+==== Modalités
+
+Sur instruction écrite de votre part, nous décaissons en une seule fois et en totalité le Prêt en créditant votre Compte principal, sous réserve que les conditions préalables du <<loan-disbursment-conditions>> ci-dessous aient été valablement satisfaites.
+
+Vous disposez d’un délai de trois mois maximum à compter de la date de signature de cette Convention pour remplir ces conditions préalables et nous communiquer votre instruction de décaissement du Prêt — en pratique, nous vous conseillons d’envoyer un e-mail à votre chargé d’affaires. Une fois ce délai expiré, aucun décaissement ne sera possible.
+
+Dès réception de votre instruction de décaissement, nous contrôlons dans les meilleurs délais que les conditions préalables ont bien été remplies. Dans cette situation :
+
+* soit toutes les conditions préalables sont remplies : nous créditons alors votre Compte principal du montant du Prêt ;
+* soit une ou plusieurs des conditions préalables ne sont pas satisfaites : nous vous envoyons alors un e-mail pour vous en avertir, en précisant les conditions restant à remplir, et en vous rappelant l’échéance du délai de trois mois mentionné au paragraphe ci-dessus.
+
+[[loan-disbursment-conditions]]
+==== Conditions préalables
+
+Au plus tard à la date de votre instruction, vous devez nous avoir communiqué la totalité des pièces énumérées ci-dessous. Nous contrôlerons que ces pièces sont satisfaisantes.
+
+* les conventions formalisant valablement les éventuelles garanties listées au <<guarantees-list>>, établies conformément aux modèles que nous vous communiquerons ;
+* les documents justificatifs listés au <<documentary-evidence>>, le cas échéant.
+
+[[guarantees-list]]
+===== Garanties
+
+En garantie de toutes les sommes que vous nous devez au titre de cette Convention (principal, intérêts et tout autre frais), vous vous engagez à nous consentir les garanties décrites ci-dessous. Elles seront constituées à notre profit par acte séparé. Les frais liés aux Garanties sont à votre charge dans les conditions précisées ci-dessous, le cas échéant.
+
+[cols="2*",options="header"]
+|===
+| Garantie
+| Description
+
+| Nantissement de fonds de commerce
+a|
+====
+À remplir manuellement en cas de présence de cette garantie. Faire signer électroniquement par le client, à part, le modèle de nantissement de FDC.
+
+Ex: Nantissement du fonds de commerce à hauteur de #X# € (montant du Prêt + 10%) dont l’activité est #activité# et se situe #lieu#
+====
+
+| Cautionnement solidaire
+a|
+====
+À remplir manuellement en cas de présence de cette garantie. Faire imprimer le modèle de cautionnement par la caution, qui doit ensuite le compléter et le signer de manière manuscrite, puis nous le faire parvenir.
+
+Ex: cautionnement solidaire à consentir par #nom, prénoms, adresse, date et lieu de naissance, régime matrimonial et profession# à concurrence de la somme de #somme (montant du Prêt + 10%)# couvrant le paiement du principal, des intérêts, commissions, frais, accessoires, pénalités et intérêts de retard exigibles au titre du Prêt.
+====
+
+| Garantie Bpifrance Financement
+a| ====
+À remplir manuellement en cas de présence de cette garantie. Pas de signature requise de la part du client. En revanche, il faut :
+
+* ajouter une Annexe 3 à cette Convention, contenant les Conditions générales de Bpifrance.
+* s’il y a un cautionnement, ajouter en annexe du document de cautionnement les Conditions générales de Bpifrance.
+* préciser dans cette case le coût de la garantie Bpifrance, refacturée au client, ainsi que le fait que  le client nous autorise à communiquer des informations à Bpifrance (levée du secret bancaire + RGPD)
+
+→ Exemple contrat :
+
+“Dans le cadre de cette garantie, vous autorisez:
+
+* d’une part que nous  communiquons à Bpifrance Financement toute information vous concernant pour assurer le suivi de son engagement,
+
+* d’autre part que Bpifrance Financement transmette à ses ministères de tutelle et aux collectivités territoriales intervenant directement ou indirectement à la garantie Bpifrance, les données d’identification vous concernant et toutes les informations nécessaires au suivi, à la gestion de l’évaluation de la garantie.
+
+L’intervention de Bpifrance Financement au titre de sa garantie donne lieu au paiement d’une commission, dénommée “Commission de Garantie Bpifrance Financement”, s’élevant, à ${bpifrance-fee} €.
+
+Cette commission est à votre charge. Vous nous autorisez à débiter votre Compte principal du montant de cette commission en une seule fois à la date de réalisation du Prêt. Cette commission ne sera pas remboursable, quelle que soit l’issue du Prêt, y compris en cas de remboursement anticipé”.
+====
+|===
+
+[[documentary-evidence]]
+===== Documents justificatifs
+
+[cols="2*",options="header"]
+|===
+| Document justificatif
+| Description
+
+| #Facture / XX#
+| #Factures acquittées pour l’achat de camions objet du Prêt, pour un montant représentant a minima 85% du montant du Prêt.#
+|===
+
+
+== Conditions générales
+
+[[declaration]]
+=== Déclarations
+
+À la date de signature de la Convention, vous déclarez que :
+
+* vous êtes une société dûment immatriculée et existant valablement au regard du droit français. Vous avez la capacité requise pour être valablement propriétaire de vos actifs et pour exercer votre activité telle que vous l’exercez actuellement ;
+* vous avez la capacité de signer et d’exécuter cette Convention et d’exécuter les obligations qui en découlent ; toutes les autorisations nécessaires pour que vous puissiez signer la Convention, exercer les droits et exécuter les obligations qui en découlent ont été obtenues et sont en vigueur. Le signataire de la Convention dispose de la capacité et des pouvoirs nécessaires pour vous représenter et vous engager à l’égard des tiers ;
+* les obligations qui vous incombent au titre de cette Convention sont conformes à la loi, valables, vous sont opposables et sont susceptibles d'être mises en œuvre en justice ; toutes les formalités requises pour assurer la légalité, la validité et la force obligatoire des obligations nées au titre de la Convention ont été respectées et accomplies ;
+* la signature de la Convention et l’exécution des obligations qui en découlent ne sont et ne seront contraires à aucun de vos documents constitutifs ou à aucun contrat ou acte vous obligeant ou engageant l'un quelconque de vos actifs ;
+* aucun événement susceptible d’avoir un Effet Significatif Défavorable n’est en cours ;
+* aucune information que vous nous avez fournie  pour les besoins de cette Convention n'est inexacte ou susceptible de nous induire en erreur sur un quelconque point significatif ;
+* les documents comptables, fiscaux et financiers que vous nous avez remis pour l’analyse de votre demande sont exacts, et donnent une image fidèle de votre actif, passif et résultats pour chaque exercice. Les comptes sociaux communiqués ont été préparés conformément aux principes comptables généralement observés en France ;
+* aucune instance, action, procès ou procédure judiciaire ou administrative n’est en cours ou n’est sur le point d’être engagée qui pourrait avoir un Effet Significatif Défavorable ;
+* les Garanties consenties à notre profit ont été valablement constituées et ne contredisent pas une quelconque obligation légale ou contractuelle qui vous est applicable ou qui pourrait vous lier ;
+* il n’existe pas de fait ou d’événement susceptible de constituer l’un quelconque des cas d’exigibilité anticipée listés au <<early-repayability>>.
+
+Les déclarations ci-dessus sont réputées être faites de nouveau par vos soins à la date d’envoi de l’instruction de décaissement mentionnée au <<loan-disbursment-terms>>.
+
+[[commitments]]
+=== Engagements
+
+Pendant toute la durée de la Convention, vous vous engagez à :
+
+* nous remettre chaque année, dès leur établissement et au plus tard dans un délai maximum de six mois à compter de la clôture de chaque exercice :
+* les copies des rapports de votre commissaire aux comptes incluant vos bilans annuels et compte de résultats ;
+* la copie de vos liasses fiscales certifiées conformes par votre représentant légal ;
+nous communiquer, en cas de demande de notre part, tous documents et informations sur votre situation économique, comptable et financière ;
+* nous informer immédiatement dans l’hypothèse où l’une quelconque des déclarations visées ci-dessus se révèle fausse ou inexacte pendant la durée de la Convention ;
+* nous informer immédiatement en cas de survenance d’un événement susceptible d’avoir un Effet Significatif Défavorable ;
+* nous informer immédiatement de tous événements susceptibles de constituer l’un des cas d’exigibilité anticipée listés au <<early-repayability>> ;
+* nous informer en cas de modification de  votre actionnariat donnant lieu à un changement de contrôle (au sens de l’article L 233-3 du Code de commerce) vous impactant ;
+* ne pas — sauf accord préalable écrit de notre part — réaliser de fusion, scission, apport partiel d'actifs ou toute autre opération de restructuration similaire vous impactant ;
+* ne pas — sauf accord préalable écrit  de notre part — accorder des crédits, avances, prêts, cautions, aval ou garantie à quelque personne que ce soit sauf dans le cadre normal de vos activités ;
+* ne pas — sauf accord préalable écrit  de notre part — aliéner, hypothéquer, remettre en gage, donner à bail, apporter tout ou partie de votre patrimoine immobilier à un tiers ;
+* ne pas — sauf accord préalable écrit de notre part — aliéner, remettre en nantissement, donner en gérance tout fonds de commerce et le matériel en dépendant.
+
+[[early-repayability]]
+=== Exigibilité anticipée
+
+En cas de survenance de l’un des évènements listés ci-dessous, nous pourrons, par simple lettre recommandée avec accusé de réception envoyée à l’adresse postale de référence renseignée dans votre Espace de travail, ou par lettre recommandée électronique envoyée à l’adresse e-mail des Titulaires renseignée dans votre Espace de travail, prononcer la déchéance du terme du Prêt. Cela aura pour effet de rendre immédiatement exigibles toutes les sommes que vous nous devrez au titre de la Convention. Les événements susceptibles d’entraîner la déchéance du terme sont les suivants :
+
+* non-paiement à bonne date de toute somme devenue exigible au titre de la Convention (par exemple : une échéance du Prêt restée impayée), sauf si le défaut de paiement résulte d’une erreur technique ou administrative ou si le paiement ne dépasse pas 3 jours ouvrés de retard ;
+* affectation du Prêt à un autre objet que celui prévu à la Convention ;
+* une ou plusieurs des déclarations listées au <<declaration>> s’avèrent fausses ou inexactes à un moment quelconque durant la vie du Prêt ;
+* un ou plusieurs des engagements pris au titre de la Convention, et en particulier ceux listés au <<commitments>>, n’ont pas été respectés ;
+* une ou plusieurs des Garanties ne peuvent être exécutées ou ont subi une diminution significative de leur valeur économique ;
+* vente amiable ou judiciaire des biens financés par le Prêt ou donnés en garantie ;
+* changement de contrôle au sens de l’article L 233-3 du Code de commerce vous impactant
+* dissolution ou liquidation amiable vous concernant ;
+* procédures de conciliation, redressement ou liquidation judiciaire vous concernant ;
+* tout incident de paiement ou déchéance du terme liée à une dette bancaire (autre que ce Prêt) ; tout incident de paiement vous concernant déclaré à la Banque de France ;
+* cessation d’exploitation, changement d’activité ou cessation d’activité, quelle que soit la cause.
+
+À la suite d’une telle déchéance du terme, vous devrez nous payer immédiatement :
+
+* toutes les sommes devenues exigibles (principal, intérêts, Frais de retard, Intérêts de retard, ainsi que tout autre frais accessoires) au titre de la Convention ;
+* une indemnité de déchéance du terme égale à 10 % des sommes devenues exigibles au titre de la Convention.
+
+Dans le cas contraire, toutes les sommes restées impayées se verront appliquer le taux des Intérêts de retard.
+
+Tous les intérêts échus et non payés, s’ils sont dus pour une année entière, produiront eux-mêmes des intérêts au taux des Intérêts de retard, conformément à l’article 1343-2 du Code civil.
+
+=== Remboursement anticipé à votre initiative
+
+Vous pouvez à tout moment rembourser ce Prêt de manière anticipée, et pour sa totalité. Pour ce faire, vous devez nous en informer au moins 30 jours avant par courrier électronique à l’adresse {contact-email}, en nous précisant la date de remboursement souhaitée - qui doit impérativement correspondre à une date d’échéance.
+
+À la date du remboursement, nous solderons le Prêt en prélevant sur votre Compte principal les sommes suivantes :
+
+* le principal non remboursé, les intérêts exigibles et toute autre somme due au titre de la Convention ;
+* une indemnité de remboursement anticipé égale aux intérêts cumulés des 6 échéances suivant la date de remboursement souhaitée.
+
+Tout remboursement anticipé ne peut avoir lieu qu’en totalité, et aura un caractère définitif.
+
+[[diverse-fees]]
+=== Frais divers à votre charge
+
+De manière générale, vous supportez tous les éventuels frais que nous aurions à engager en cas de retard de paiement (ex: frais de lettre recommandée) ou de recouvrement des sommes que vous nous devrez (exemple : frais d’avocats).
+
+=== Imputation des paiements
+
+Tout remboursement partiel de sommes que vous nous devez sera imputé dans cet ordre :
+
+* Frais de retard, ainsi que tout autre frais accessoires mentionnés au <<diverse-fees>> ;
+* Intérêts de retard (de l’échéance la plus ancienne à la plus récente) ;
+* intérêts conventionnels (de l’échéance la plus ancienne à la plus récente) ;
+* principal (de l’échéance la plus ancienne à la plus récente).
+
+Dans l’hypothèse où une ou plusieurs échéances seraient en retard de paiement, vous acceptez que nous débitions vos Comptes à hauteur des sommes dues, dans l’ordre indiqué ci-dessus, dès qu’ils deviendront créditeurs. Vous pourrez toutefois vous y opposer en nous envoyant un email à l’adresse {contact-email}.
+
+=== Exclusion du Prêt du compte courant
+
+Vous reconnaissez et acceptez que le décaissement du Prêt au crédit de votre Compte a pour seul effet de mettre le montant du Prêt à votre disposition, ce qui n’entraîne donc pas, en l’absence de novation, l’extinction des Garanties.
+
+Vous reconnaissez l’autonomie de la Convention et acceptez d’exclure toute créance résultant du Prêt de tout mécanisme de compensation inhérent à la relation de compte courant de vos Comptes, et ce en dépit de toute clause contraire qui pourraient figurer dans tout autre contrat conclu entre nous. Ainsi, vous ne pourrez exercer un quelconque droit de compensation  pour le paiement des créances issues de la Convention.
+
+=== Cession – Transfert
+
+Vous ne pourrez pas céder ou transférer ce Prêt, y compris par voie de fusion ou toute opération assimilée, sans notre accord préalable.
+
+Nous pourrons céder ou transférer, y compris dans le cadre d’une opération de titrisation, tout ou partie de ce Prêt.
+
+=== Droit de rétractation
+
+Dans l’hypothèse où la Convention aurait été conclue dans le cadre d’une opération de <<cold_call>>, vous disposez d’un délai de 14 jours à compter de sa signature pour exercer votre droit de rétractation, en nous envoyant un email à l’adresse {withdrawal-email}. Vous êtes alors tenus de nous restituer toutes les éventuelles dettes en cours (notamment, s’agissant de ce Prêt, le principal restant dû, les intérêts courus non échus et tout autre frais exigible). Toute somme que vous nous devrez produira intérêt au Taux de l’Intérêt de Retard jusqu’au parfait paiement.
+
+=== Convention sur la preuve
+
+Vous reconnaissez et acceptez que le procédé de signature électronique utilisé pour conclure la Convention vous est opposable, manifeste votre consentement aux droits et obligations découlant de la Convention et produit des effets juridiques au même titre qu’une signature manuscrite. Cette Convention signée sous forme électronique a donc la qualité d’un document original ayant force probante.
+
+Concernant les informations transmises par courrier électronique, vous serez réputé avoir pris connaissance de manière incontestable des messages, informations et pièces attachées du seul fait de leur expédition à l’adresse e-mail renseignée dans l’Espace de travail.
+
+=== Données à caractère personnel
+
+Nous pouvons être amenés à recueillir des données à caractère personnel vous concernant (et plus particulièrement, les représentants légaux, les bénéficiaires effectifs et les Utilisateurs). Ces données peuvent être rassemblées, enregistrées, stockées, adaptées, consultées, transférées ou traitées et utilisées par nos soins. Nous sommes le responsable du traitement de ces données à caractère personnel. Les données à caractère personnel collectées et traitées par nos soins à l’ouverture de votre Espace de travail et dans le cours de son fonctionnement sont nécessaires :
+
+* à la conclusion et à l’exécution de la Convention ;
+au respect et à l’exécution de nos obligations légales ou réglementaires ;
+* à la poursuite de nos intérêts légitimes ou ceux d’un tiers et ce, dans le respect de vos droits fondamentaux.
+
+Vous acceptez expressément que nous procédions au traitement des données à caractère personnel collectées et nous autorisez à communiquer toute information utile les concernant à toute personne contribuant à la réalisation des services fournis par nos soins notamment pour l’exécution des prestations de service ou tâches sous-traitées.
+
+Vous disposez notamment d’un droit d’accès et d’information, de rectification, d’effacement de vos données personnelles. Vous pouvez exercer vos droits, à tout moment et gratuitement, à intervalle raisonnable, auprès du délégué à la protection des données par courrier électronique à l’adresse suivante : {privacy-email}.
+
+Vous pouvez, en cas de litige, vous adresser à la Commission nationale de l’informatique et des libertés (CNIL). Pour saisir la CNIL, il convient d’adresser un simple courrier à l’attention du président de la CNIL, Commission nationale de l’informatique et des libertés – 3, Place de Fontenoy – TSA 20715 – 75334 PARIS CEDEX 07.
+
+=== Divers
+
+En cas de conflit entre le contenu de cette Convention et le contenu de toute autre accord (oral ou écrit) entre vous et nous au sujet du Prêt, le contenu de cette Convention prévaudra.
+
+Pour rappel, le fait de nous abstenir d’exercer un droit (au titre de la Convention) ou de le retarder ne signifie pas que nous renonçons à ce droit. L'exercice partiel d'un droit n'est pas un obstacle à son exercice ultérieur, ni à l'exercice, plus généralement, des droits et recours prévus par la loi.
+
+Vous acceptez par ailleurs d'assumer l’ensemble des risques qui pourraient résulter d'un changement de circonstances rendant l'exécution de la Convention excessivement onéreuse pour vous. Ce faisant, vous renoncez à vous prévaloir de l’article 1195 du Code civil relatif à l’imprévision.
+
+=== Loi applicable
+
+La loi applicable est la loi française. Tout litige relatif à cette autorisation de découvert relève, à défaut de résolution amiable, de la Cour d’Appel de Paris.
+
+
+[[redemption-table-appendix]]
+[appendix]
+== Tableau d’amortissement indicatif
+
+#Ajouter un tableau d’amortissement comprenant les montants des échéances (les dates exactes sont à ce stade encore inconnues, car la date de décaissement n’est pas connue)#

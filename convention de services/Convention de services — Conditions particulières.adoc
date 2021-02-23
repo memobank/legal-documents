@@ -1,0 +1,65 @@
+:title-separator: {sp}|
+= Convention de services | Conditions particulières
+Memo Bank <contact@memo.bank>
+2020-09-11
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:sectnums:
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 10 000 000,00 euros
+:website-url: https://memo.bank/
+:convention-url: https://memo.bank/convention/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:contact-email: contact@memo.bank
+
+
+La convention de services (dénommée la « Convention » dans ce document, pour simplifier votre lecture) est constituée de trois documents :
+
+* les Conditions générales, y compris ses annexes (disponibles à cette adresse : {convention-url}) ;
+* les Conditions particulières (le document que vous lisez à présent);
+* les Conditions tarifaires (disponibles à cette adresse : {convention-url}). 
+
+La Convention est conclue entre :
+
+la société ${company.name} (désigné par « vous » dans ce document), ${company.legalForm} au capital social de ${company.shareCapital}, immatriculée sous le numéro SIREN ${company.siren}, ayant son siège social au ${company.address} et dûment représentée par ${owner.firstName} ${owner.lastName}, né(e) le ${owner.birthDate} à ${owner.birthAddress}, résidant au ${owner.address}, et dont l’identifiant chez Memo Bank est ${owner.email}, en qualité de ${owner.job} 
+
+et
+
+Memo Bank (désigné par « nous » dans ce document), société anonyme au capital de {memo-bank-capital}, immatriculée au Registre du Commerce et des Sociétés de Paris sous le n° {memo-bank-siren}, ayant son siège social {memo-bank-address}. Memo Bank a un agrément d’établissement de crédit et est contrôlée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) située au 4 place de Budapest 75436 Paris Cedex 09.
+
+Les termes que nous avons jugés essentiels commencent par une majuscule (par exemple : <<account>>) et sont définis dans le glossaire figurant dans les Conditions Générales. Nous vous invitons aussi à compléter votre lecture par {help-url}[notre aide en ligne].
+
+La Convention détaille les conditions d’utilisation des Services - précisés à l’article 5.1 des Conditions Générales - en contrepartie du paiement des frais précisés dans les Conditions tarifaires. 
+
+Tout autre produit ou service ne relevant pas des services mentionnés ci-dessus (notamment le crédit, l’autorisation de découvert et le compte à terme) fera l’objet d’un contrat spécifique.
+
+Votre identifiant Memo Bank : ${customerHumanReference}
+
+Titulaires habilités à réaliser des opérations sur le compte :
+
+* Titulaire 1 : ${owner.firstName} ${owner.lastName}, né(e) le ${owner.birthDate} à ${owner.birthAddress}, résidant au ${owner.address}, et dont l’identifiant chez Memo Bank est ${owner.email}                                             

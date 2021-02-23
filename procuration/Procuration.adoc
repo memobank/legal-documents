@@ -1,0 +1,299 @@
+= ${company.name} | Procuration
+Memo Bank <contact@memo.bank>
+2020-09-11
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 10 000 000,00 euros
+:website-url: https://memo.bank/
+:convention-url: https://memo.bank/convention/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:contact-email: contact@memo.bank
+:privacy-email: protectiondesdonnees@memo.bank
+
+== Avant-propos
+
+La Procuration (ou mandat) que vous lisez est l’acte par lequel un Utilisateur dûment habilité à représenter la Société (tel que ce terme est défini ci-dessous) donne pouvoir à une autre personne pour effectuer certaines actions sur l’Espace de travail et les Comptes de la Société, au nom et pour le compte de la Société.
+
+Cette Procuration est liée au point 5.3. "Utilisateurs - Procuration" de la Convention de services.
+
+Les termes commençant par une majuscule sont définis dans ce document ou en annexe, et à défaut dans les Conditions générales de la Convention de services, disponibles à l’adresse suivante : {convention-url}.
+
+
+== Acte de procuration
+
+Je, soussigné(e) ${inviter.firstName} ${inviter.lastName}, né(e) le ${inviter.birthDate} à ${inviter.birthAddress}, et dont l’identifiant chez Memo Bank est ${inviter.email} (ci-après appelé le « Mandant »),
+
+dûment habilité à représenter ${company.name}, ${company.legalForm} au capital social de ${company.shareCapital}, immatriculée sous le numéro SIREN ${company.siren}, ayant son siège social au ${company.address}, et dont l’identifiant chez Memo Bank est ${customerHumanReference} (ci-dessus et ci-après appelé la « Société »)
+
+délègue, en ma qualité de ${inviter.job}, tout ou partie de mes droits, au nom et pour le compte de la Société, à ${invited.firstName} ${invited.lastName}, né(e) le ${invited.birthDate} à ${invited.birthAddress}, et dont l’identifiant chez Memo Bank est ${invited.email} (ci-après appelé le « Mandataire »)
+
+à l’effet d’effectuer toutes les opérations sur l’Espace de travail de la Société, dans les limites des droits attribués par le Mandant au Profil d’Utilisateur du Mandataire dans l’Espace de travail.
+
+
+== Conditions et modalités de la Procuration
+
+=== Délégation
+
+Les droits qu’il est possible d’attribuer à chaque Profil d’Utilisateur figurent en <<roles-appendix>> (Pour plus de détails, il est possible de consulter {help-url}[l’aide en ligne]).
+
+Pour simplifier l’attribution de droits aux Utilisateurs, Memo Bank a défini des Rôles avec des droits associés. Dans le cadre d’une délégation, le Mandant attribue un Rôle au Mandataire.
+
+Un Utilisateur ne peut pas avoir des droits qui ne sont pas associés à son Rôle. En revanche, le Mandant peut spécifiquement réduire les droits attribués à son Mandataire.
+
+Un Mandant ne peut déléguer à un Mandataire que les droits qu’il détient. En conséquence, un Mandant ne peut pas attribuer à un Mandataire un Rôle qui détient des droits que son propre Rôle ne détient pas.
+
+Enfin, un Utilisateur ne peut déléguer ses droits que s’il a reçu le droit de déléguer ses droits.
+
+=== Modification
+
+Toute modification future des droits attribués au Mandataire ne pourra être effectuée qu’en se rendant sur l’onglet « Utilisateurs » de Espace de travail, sans qu’il soit nécessaire de conclure un avenant à cette Procuration.
+
+Un Utilisateur peut détenir le droit dans son Profil de modifier les droits d’un autre Utilisateur, sans qu’il ne soit pour autant le Mandant de cet Utilisateur.
+
+=== Révocation
+
+Cette Procuration est donnée pour une durée indéterminée, et ne prendra fin qu’en cas de révocation, dans les conditions définies ci-dessous.
+
+Toute révocation de cette Procuration ne pourra être effectuée qu’en se rendant sur l’onglet « Utilisateurs » de Espace de travail.
+
+Un Utilisateur peut détenir le droit dans son Profil de révoquer la Procuration d’un autre Utilisateur, sans qu’il ne soit pour autant le Mandant de cet Utilisateur.
+
+=== Responsabilité
+
+Cette Procuration est accordée sous la seule responsabilité du Mandant, qui reconnaît que les actions effectuées par le Mandataire engagent la Société.
+
+Le Mandant s’engage à contrôler le bon usage, par le Mandataire, des droits qui lui sont conférés par cette Procuration. Memo Bank ne pourra en aucun cas être tenue responsable des conséquences de l’exercice des droits du Mandataire.
+
+=== Convention de preuve
+
+Le Mandant et le Mandataire reconnaissent et acceptent que le procédé de signature électronique utilisé pour conclure cette Procuration leur est opposable, manifeste leur consentement aux droits et obligations découlant de cette Procuration et produit des effets juridiques au même titre qu’une signature manuscrite. La Procuration signée sous forme électronique a donc la qualité d’un document original ayant force probante.
+
+La Procuration est régie par le droit français.
+
+[.signature-section]
+=== Signature électronique du Mandant
+
+NOTE: Les données personnelles sont traitées en toute confidentialité et ce conformément à la législation en vigueur en matière de protection des données personnelles incluant notamment au Règlement européen N° 679/2016 relatif à la protection des personnes à l’égard du traitement des données à caractère personnel et à la loi n° 78-17 du 6 janvier 1978 modifiée relative à l’informatique, aux fichiers et aux libertés. Vous disposez du droit d’accéder à vos données personnelles et d’en demander, à tout moment, la rectification, l’effacement, ou la mise à jour, sans frais, à intervalle raisonnable, auprès du délégué à la protection des données de Memo Bank par courrier électronique à l’adresse suivante : {privacy-email}, ou par courrier à l’adresse suivante : « Memo Bank, Délégué à la protection des données, {memo-bank-address} ».
+
+
+[[roles-appendix]]
+[appendix]
+[.full-width.new-page]
+== Rôles et droits associés
+
+=== Compte
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Consulter les opérations, les bénéficiaires et les mandats de prélèvement
+| Oui
+| Oui
+| Oui
+
+| Annoter, catégoriser ou ajouter des justificatifs sur les opérations
+| Oui
+| Oui
+| Oui
+
+| Exporter les transactions
+| Oui
+| Oui
+| Oui
+|===
+
+=== Virements
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Initier ou annuler des virements
+| Oui
+| Oui
+| Oui
+
+| Effectuer une demande de virement
+| Oui
+| Oui
+| Oui
+
+| Valider une demande de virement
+| Oui
+| Oui
+| Non
+
+| Valider les virements dépassant le plafond autorisé.
+| Oui
+| Non
+| Non
+
+|===
+
+=== Benéficiaires
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Créer ou supprimer des bénéficiaires (y compris des bénéficiaires de confiance)
+| Oui
+| Oui
+| Oui
+|===
+
+=== Prévèvements
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Ajouter ou suspendre un mandat de prélèvement
+| Oui
+| Oui
+| Oui
+
+|===
+
+=== Financements et dépôts
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Signer un nouveau contrat de prêt ou de découvert.
+| Oui
+| Non
+| Non
+
+| Consulter la liste et l’état des financements accordés à la société
+| Oui
+| Oui
+| Oui
+
+| Signer un compte à terme
+| Oui
+| Non
+| Non
+
+|===
+
+=== Documents
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Consulter ou télécharger tous les documents de la société
+| Oui
+| Oui
+| Oui
+
+|===
+
+=== Équipe
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Inviter un Administrateur
+| Oui
+| Oui
+| Non
+
+| Modifier ou révoquer les droits de tout Administrateur
+| Oui
+| Non
+| Non
+
+| Inviter un Collaborateur
+| Oui
+| Oui
+| Non
+
+| Modifier ou révoquer les droits de tout Collaborateur
+| Oui
+| Oui
+| Non
+
+|===
+
+=== Paramètres et Sécurité
+
+[cols="46,18,18,18", options="header"]
+|===
+| Action
+| Titulaire
+| Administrateur
+| Collaborateur
+
+| Voir les paramètres de la Société
+| Oui
+| Non
+| Non
+
+| Modifier les paramètres personnels d’un Utilisateur
+| Oui (uniquement les siens)
+| Oui (uniquement les siens)
+| Oui (uniquement les siens)
+
+| Modifier l’abonnement souscrit par la Société
+| Oui
+| Non
+| Non
+
+| Résilier le Compte
+| Oui
+| Non
+| Non
+
+|===

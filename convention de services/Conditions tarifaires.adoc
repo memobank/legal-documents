@@ -1,0 +1,181 @@
+= Convention de services | Conditions tarifaires
+Memo Bank <contact@memo.bank>
+2021-02-04
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 48 118,70 euros
+:website-url: https://memo.bank/
+:convention-url: https://memo.bank/convention/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:contact-email: contact@memo.bank
+:full-width:
+
+== Les forfaits Memo Bank
+
+[cols="6,4,4,4",options="header"]
+|===
+|
+|Basique
+|Plus
+|Illimité
+
+|Prix du forfait
+|49 € / mois
+|149 € / mois
+|399 € / mois
+
+4+|*Compte courant*
+
+|Comptes courants inclus
+|1
+|5
+|20
+
+|Coût par compte courant additionnel
+|10 € / mois
+|10 € / mois
+|10 € / mois
+
+|Rémunération des dépôts
+|Non disponible
+|0,15 % par an jusqu’à 100 000 €
+|0,25 % par an jusqu’à 500 000 €
+
+
+|Utilisateurs inclus
+|1
+|Illimité
+|Illimité
+
+|Coût par utilisateur additionnel
+|10 € / mois
+|Illimité
+|Illimité
+
+4+|*Virements et prélèvements*
+
+|Virements et prélèvements SEPA inclus par mois d’abonnement (entrants/sortants)
+|20
+|200
+|Illimité
+
+|Virement et prélèvement SEPA additionnel
+|0,40 €
+|0,40 €
+|Illimité
+
+|Demandes de virement
+|Non disponible
+|Illimité
+|Illimité
+
+4+|*Découvert*
+
+|Autorisation de découvert
+|Non disponible
+|Facturée à l’utilisation et à la non-utilisation
+|Facturée à l’utilisation uniquement
+
+4+|*Compte de dépôt de capital*
+
+|Dépôt de capital
+|Non disponible
+|Gratuit
+|Gratuit
+
+|Augmentation de capital
+|Non disponible
+|Gratuit
+|Gratuit
+
+|===
+
+
+== Frais d’intervention
+
+[cols="2*"]
+|===
+2+|*Virements et prélèvements*
+
+|Frais de rejet de Prélèvement SEPA pour provision insuffisante
+|Gratuit
+
+|Frais de non-exécution de virement SEPA pour provision insuffisante
+|Gratuit
+
+|Frais de non-exécution de virement SEPA pour autres raisons (IBAN inexistant, compte du bénéficiaire fermé etc...)
+|20 €
+
+|Frais pour opposition sur prélèvement
+|Gratuit
+
+|Révocation des mandats de prélèvement
+|0 €
+
+|Commission d’intervention en cas d’irrégularité
+et incident de fonctionnement du compte
+|0 €
+
+|Autres commissions d’intervention
+|0 €
+
+2+|*Documents*
+
+|Attestations aux commissaires aux comptes
+|45 €
+
+|Autres attestations (solde, personnes habilitées, bon fonctionnement, etc.)
+|Au cas par cas (nous consulter)
+
+2+|*Financements*
+
+|Frais de relance de dossier en recouvrement ou contentieux
+|Au cas par cas (nous consulter)
+
+
+|Frais de passage de dossier de crédit au contentieux (par dossier)
+|Au cas par cas (nous consulter)
+
+
+|Frais de passage de dossier en déchéance du terme (par dossier)
+|Au cas par cas (nous consulter)
+
+
+|Restructuration de prêt
+|Au cas par cas (nous consulter)
+
+2+|*Divers*
+
+|Frais par saisie administrative à tiers détenteur (SATD)
+|10 % du montant dû, dans la limite d’un plafond de 100 €
+
+|Frais par saisie-attribution (Saisie conservatoire, saisie-attribution, saisie de valeurs mobilières)
+|100 €
+
+|===

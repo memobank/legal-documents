@@ -1,2 +1,3 @@
-# legal-documents
-Memo Bank Legal Documents
+# Legal Documents
+
+Memo Bank's legal documents.

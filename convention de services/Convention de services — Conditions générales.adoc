@@ -1,0 +1,515 @@
+﻿:title-separator: {sp}|
+= Convention de services | Conditions générales
+Memo Bank <contact@memo.bank>
+2021-02-04
+// French translation, courtesy of Nicolas Comet <nicolas.comet@gmail.com> with updates from Maheva Bagard Laursen <mblaursen@gbif.org>
+:appendix-caption: Annexe
+:appendix-refsig: {appendix-caption}
+:caution-caption: Avertissement
+:chapter-label: Chapitre
+:chapter-refsig: {chapter-label}
+:example-caption: Exemple
+:figure-caption: Figure
+:important-caption: Important
+:last-update-label: Dernière mise à jour
+ifdef::listing-caption[:listing-caption: Liste]
+ifdef::manname-title[:manname-title: Nom]
+:note-caption: Note
+:part-refsig: Partie
+ifdef::preface-title[:preface-title: Préface]
+:table-caption: Tableau
+:tip-caption: Astuce
+:toc-title: Table des matières
+:untitled-label: Sans titre
+:version-label: Version
+:warning-caption: Attention
+:sectnums:
+:xrefstyle: full
+:section-refsig: point
+:sectanchors:
+:toc:
+:memo-bank-address: 8 rue du Faubourg Poissonnière, 75010 Paris, France
+:memo-bank-siren: 829 226 760
+:memo-bank-capital: 10 000 000,00 euros
+:website-url: https://memo.bank/
+:convention-url: https://memo.bank/convention/
+:help-url: https://aide.memo.bank/
+:github-url: https://github.com/memobank/legal-documents/
+:contact-email: contact@memo.bank
+:privacy-email: protectiondesdonnees@memo.bank
+:termination-email: resiliation-compte@memo.bank
+:withdrawal-email: retractation-compte@memo.bank
+
+== Comment lire ce document
+
+Memo Bank tient à présenter des documents juridiques clairs à ses clients. Nous faisons tout notre possible pour simplifier au maximum la lecture des contrats que vous signez. Si une partie de ce texte vous semble complexe à comprendre, n’hésitez pas à nous contacter.
+
+Les termes que nous avons jugés essentiels commencent par une majuscule (par exemple : <<account>>) et sont définis dans le glossaire figurant ci-après. Nous vous invitons aussi à compléter votre lecture par {help-url}[notre aide en ligne].
+
+
+== La convention de services
+
+La convention de services est constituée de trois documents :
+
+* Les conditions générales et ses annexes (le document que vous lisez à présent) ;
+* les conditions particulières ;
+* et les conditions tarifaires (disponibles à cette adresse : {convention-url}).
+
+La convention de services sera dénommée la « <<convention>> » dans ce document, pour simplifier votre lecture.
+
+La Convention est établie entre « vous », la personne morale identifiée dans les conditions particulières, et « nous », Memo Bank, société anonyme au capital de {memo-bank-capital}, immatriculée au Registre du Commerce et des Sociétés de Paris sous le n° {memo-bank-siren}, ayant son siège social {memo-bank-address}. Memo Bank a un agrément d’établissement de crédit et est contrôlée par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) située au 4 place de Budapest 75436 Paris Cedex 09.
+
+Cette Convention est conclue pour une durée indéterminée.
+
+Nous pouvons modifier cette Convention, y compris les conditions tarifaires, à tout moment. Vous pouvez suivre l’intégralité des modifications sur GitHub à l’adresse suivante : {github-url}.
+
+La plupart des modifications servent à clarifier certains points ou à les compléter. En cas de modification importante de la Convention, vous serez informé par email.
+
+Si vous refusez ces modifications, vous pouvez alors résilier la Convention dans les conditions du <<termination>>. À défaut de réaction de votre part dans un délai d’un mois, nous considérerons que vous les avez acceptées.
+
+Certaines dispositions législatives ou réglementaires peuvent nous obliger à modifier la Convention.
+
+Les conditions générales et les conditions tarifaires mises à jour restent quoi qu’il en soit disponible en ligne à l’adresse suivante : {convention-url}.
+
+
+== Comment communiquer ensemble
+
+Nous communiquons par défaut en français. Vous pouvez nous joindre :
+
+* par courrier électronique à l’adresse contact@memo.bank ;
+* par voie postale à l’adresse suivante : Memo Bank, {memo-bank-address}.
+
+
+== Définitions
+[horizontal, labelwidth="30"]
+
+[[convention]]Convention:: Ensemble contractuel formé par les présentes Conditions générales (annexes incluses), les Conditions particulières et les Conditions tarifaires.
+
+[[services]]Services:: Services que nous vous apportons en vertu de cette [.def]#<<convention>>#.
+
+[[account]]Compte:: Compte bancaire ouvert à votre nom dans nos livres.
+
+[[main_account]]Compte principal:: Premier compte bancaire ouvert à votre nom dans nos livres.
+
+[[workspace]]Espace de travail:: Interface en ligne dédiée à une personne morale, à laquelle chaque [.def]#<<user>># authentifié a accès.
+
+[[holder]]Titulaire:: Personne physique, représentant légal d’une personne morale (société), ayant signé les Conditions particulières de la [.def]#<<convention>># au nom et pour le compte de cette personne morale.
+
+[[power_of_attorney]]Procuration:: Pouvoir donné à une autre personne d’agir en votre nom.
+
+[[user]]Utilisateur:: [.def]#<<holder>># et toute personne ayant reçu une [.def]#<<power_of_attorney>># pour utiliser un [.def]#<<workspace>>#.
+
+[[personal_secure_data]]Données de Sécurité Personnalisées:: Données personnalisées propres à chaque [.def]#<<user>># et utilisées à des fins d’[.def]#<<strong_authentification>># ou d’[.def]#<<simple_authentification>>#.
+
+[[strong_authentification]]Authentification Forte:: Procédure par laquelle un [.def]#<<user>># confirme son identité, à travers la saisie de ses identifiants, mot de passe, et d’une action à réaliser via son téléphone mobile personnel.
+
+[[simple_authentification]]Authentification Simple:: Procédure par laquelle un [.def]#<<user>># confirme son identité, à travers la saisie de ses identifiants et mot de passe.
+
+[[beneficiary]]Bénéficiaire:: Personne physique ou morale qui est destinataire d’une [.def]#<<payment_operation>>#.
+
+[[payer]]Payeur:: Personne physique ou morale qui donne ou autorise un [.def]#<<payment_order>>#.
+
+[[payment_order]]Ordre de paiement:: Instruction transmise {counter:seq1:a}) par le [.def]#<<payer>>#, qui donne une instruction de paiement à son [.def]#<<payment_service_provider>># (Ordre de paiement par virement) ; {counter:seq1}) par le [.def]#<<beneficiary>>#, qui donne une instruction de paiement au [.def]#<<payment_service_provider>># du [.def]#<<payer>>#, fondé sur le consentement donné par le [.def]#<<payer>># au [.def]#<<beneficiary>># et, le cas échéant, par l’intermédiaire de son propre [.def]#<<payment_service_provider>># (Ordre de paiement par prélèvement).
+
+[[payment_operation]]Opération de Paiement:: Une des opérations de paiement que nous proposons, détaillées au <<payment_operations_section>> :
+
+[[payment_service_provider]]Prestataire de services de paiement:: Établissement de crédit, de monnaie électronique ou de paiement agréé par une autorité établie dans un État membre de l’Union Européenne, dans un État membre de l’Espace Économique Européen ou dans un pays tiers imposant des obligations équivalentes en matière de lutte contre le blanchiment de capitaux et le financement du terrorisme.
+
+[[business_day]]Jour ouvrable:: Jour (autre qu’un samedi, un dimanche ou un jour férié) au cours duquel le prestataire de services de paiement du payeur ou celui du bénéficiaire exerce une activité permettant d’exécuter des Opérations de Paiement sous réserve de l’ouverture du système de paiement TARGET2.
+
+[[working_day]]Jour ouvré:: Jour calendaire correspondant aux horaires d’ouverture du service client tel qu’indiqué sur le [.def]#<<site>># ou tout autre support.
+
+[[cold_call]]Démarchage bancaire:: Toute prise de contact non sollicitée, par quelque moyen que ce soit, avec une personne physique ou une personne morale déterminée, en vue d’obtenir, de sa part, un accord notamment sur la fourniture d’un service de paiement au sens des articles L. 341-1 et suivants du code monétaire et financier, sauf dérogations légales.
+
+[[site]]Site:: Site internet accessible à l’adresse {website-url}.
+
+[[profil]]Profil:: Ensemble des données associées à un [.def]#<<user>>#.
+
+
+== Accès à nos Services
+
+=== Nos Services
+
+Nous fournissons, en contrepartie des frais et commissions figurant dans les Conditions tarifaires, les Services suivants :
+
+* la tenue de Comptes ;
+* l’exécution d’Opérations de Paiement, détaillés dans l’article <<payment_operations_section>>.
+
+Vos Comptes et les Opérations de Paiement utilisent uniquement la monnaie euro (code : EUR).
+
+Nous vous fournissons ces Services une fois que tous les documents nécessaires à votre entrée en relation ont été reçus et validés par Memo Bank. Des Services supplémentaires à ceux listés ci-dessus peuvent être fournis par Memo Bank : pour plus de clarté, ils font l’objet de contrats séparés.
+
+=== Vos Comptes
+
+Le solde de chacun de vos Comptes doit à tout moment être positif ou égal à zéro. Il vous appartient dès lors de maintenir un solde suffisant pour assurer la bonne exécution des Opérations de Paiement. Pour cette même raison, nous refusons d’exécuter toute Opération de Paiement qui aurait pour conséquence de rendre le solde d’un de vos Comptes négatif.
+
+Nous mettons à votre disposition les relevés de compte dans votre Espace de travail chaque mois ou toute autre périodicité fixée dans les conditions particulières. Chaque relevé retrace les opérations effectuées sur un Compte, qui sont inscrites dans l’ordre où elles nous sont effectivement présentées. Vous devez vérifier dès réception l’exactitude des mentions portées sur les relevés de compte.
+
+Selon le forfait en cours pour votre Espace de travail, le solde créditeur de certains de vos Comptes peut donner lieu à rémunération, à un taux d’intérêt créditeur fixé dans les Conditions tarifaires. Dans ce cas, le taux d’intérêt est calculé quotidiennement sur le solde créditeur des Comptes sujets à rémunération, sur la base de 360 jours. Les intérêts seront soumis aux charges sociales et à la fiscalité applicables pour ce type de produits.
+
+[[users-power_of_attorney]]
+=== Utilisateurs - Procuration
+
+Lors de l’ouverture du Compte principal, seul le <<holder>>, qui vous représente, peut accéder à l’<<workspace>> et utiliser les <<services>>. Le Titulaire peut cependant donner <<power_of_attorney>> à un ou plusieurs Utilisateurs pour accéder à l’Espace de travail et y effectuer des actions en votre nom et sous votre responsabilité.
+
+Les droits définis par le Titulaire pour chaque <<user>> définissent et limitent les actions permises par l’Utilisateur au sein de l’Espace de travail. En fonction des droits donnés par le Titulaire à l’Utilisateur, l’Utilisateur peut lui-même donner Procuration à d’autres Utilisateurs pour accéder à l’Espace de travail et y effectuer des actions en votre nom et sous votre responsabilité.
+
+Les opérations initiées par les Utilisateurs sur les Comptes vous engagent comme si vous les aviez vous-mêmes effectuées.
+
+La Procuration doit être signée par l’Utilisateur au sein de l’Espace de travail, où sont précisées les étapes à suivre. Nous avons le droit de ne pas agréer un Utilisateur ou de le révoquer à tout moment.
+
+Tout Utilisateur peut à tout moment révoquer une Procuration qu’il a donné, directement ou indirectement, dans l’Espace de travail.
+
+=== Utilisateurs - Téléphone mobile
+
+Chaque Utilisateur doit détenir un téléphone mobile équipé du système d’exploitation iOS (version 12 ou plus) ou Android (version 6 ou plus).
+
+[[private-security-data]]
+=== Données de Sécurité Personnalisées
+
+Tout Utilisateur reçoit des <<personal_secure_data>> qui lui sont propres, et qui permettent d’accéder à l’Espace Client, par le biais d’une procédure d’Authentification Forte ou d’Authentification Simple, selon les cas.
+
+Vous vous engagez à faire le nécessaire pour que chaque Utilisateur préserve la confidentialité et la sécurité des Données de Sécurité Personnalisées qui lui ont été attribuées.
+
+En cas de perte ou de vol des Données de Sécurité Personnalisées, ou en cas de détournement ou de toute utilisation non autorisée de l’Espace de travail, vous vous engagez à nous en informer sans délai par email à l’adresse suivante : contact@memo.bank. Cela nous permet notamment de bloquer immédiatement l’accès à votre Espace de travail et de traiter les éventuelles contestations d’Opérations de paiement dans les conditions décrites au <<dispute>>.
+
+=== Espace de travail
+
+Nos <<Services>> sont fournis via un <<workspace>>, auquel chaque Utilisateur a accès grâce à ses <<personal_secure_data>>.
+
+Afin de garantir la sécurité de vos Comptes, toute Opération de Paiement ne peut être initiée, validée ou refusée qu’au travers de votre Espace de travail, en suivant les instructions qui vous sont données — aucun autre moyen d’effectuer ces actions ne pourra être accepté.
+
+Nous faisons bien entendu tout notre possible pour assurer une disponibilité maximale de l’Espace de travail. Cependant, les Services pourront être ponctuellement interrompus pour des raisons d’ordre technique.
+
+Enfin, en cas d’incident de sécurité ou de présomption d’une utilisation non autorisée ou frauduleuse de votre Espace de travail, nous avons la faculté d’en bloquer l’accès. Dans ce cas vous serez informé dans les meilleurs délais et par tout moyen, sauf si la loi ou un impératif de sécurité nous l’interdit. En fonction de la situation, nous pourrons être amenés à exiger la réinitialisation des Données de Sécurité Personnalisées des Utilisateurs avant de débloquer l’accès à l’Espace de travail.
+
+[[data_update]]
+== Mise à jour de vos données
+
+Pendant toute la durée de la Convention, vous vous engagez à :
+
+* nous informer sans délai de tout changement qui interviendrait dans les informations vous concernant, fournies lors de l’entrée en relation ou ultérieurement. Vous présenterez des pièces justificatives que nous vérifierons. Cela concerne en particulier :
+** tout changement d’adresse, de numéro de téléphone et d’adresse électronique ;
+** toute modification statutaire, changement de dirigeant social, modification dans la répartition du capital social entre les associés ou actionnaires, capitaux propres devenus inférieurs à la moitié du capital social du fait des pertes ;
+** toute décision de fusion, scission, absorption, dissolution ou liquidation  ;
+** toute déclaration de cessation de paiements ou prononcé d’un jugement d’ouverture d’une procédure collective.
+
+* utiliser exclusivement l’Espace Client pour désigner, modifier ou révoquer le Titulaire ou tout Utilisateur. Aucun autre moyen pour désigner, modifier ou révoquer un Utilisateur ne pourra être accepté ;
+
+* nous fournir chaque année, dès que possible et dans les 6 mois suivant la clôture de chaque exercice social, vos états financiers (bilan, comptes de résultats et annexes) et, le cas échéant, les rapports de votre Commissaire aux Comptes ;
+
+* nous communiquer, en cas de demande expresse de notre part, tous documents et informations sur votre situation économique, comptable et financière ;
+
+* nous informer sans délai de tout évènement (quelle que soit sa nature, cause ou origine, y compris toute procédure judiciaire, arbitrale ou administrative intentée à votre encontre) affectant immédiatement ou à terme et de façon significative et défavorable {counter:seq-update:a}) votre situation financière ou juridique ou votre patrimoine ou votre activité ou {counter:seq-update}) votre capacité à satisfaire vos obligations de paiement.
+
+
+[[payment_operations_section]]
+== Opérations de Paiement
+
+Nous traitons plusieurs types d’<<payment_operation>>. Ces Opérations de paiement sont initiées par des Ordres de paiement, externes ou internes.
+
+Vous vous engagez à nous communiquer dans les meilleurs délais toutes les informations qui nous sont nécessaires pour contrôler les Opérations de Paiement enregistrées ou à venir. Ces informations peuvent concerner, entre autres, la nature, la destination et la provenance de ces Opérations de paiement. Ces contrôles sont nécessaires pour lutter contre le blanchiment des capitaux et le financement du terrorisme. La conclusion de ces contrôles peut nous amener à ne pas exécuter l’Opération de Paiement en question, voire de résilier la Convention.
+
+
+=== Réception d’Ordres de paiement par virement venant au crédit d’un Compte
+
+==== Délai d’exécution
+
+Appelé officiellement “SEPA Credit Transfer” (SCT), un virement est une Opération de paiement ordonnée par un Payeur, qui donne l’ordre de transfert de fonds en euros à son prestataire de services de paiement situé dans la zone SEPA, en faveur d’un Bénéficiaire dont le prestataire de services de paiement est également situé dans la zone SEPA. Le Payeur peut être le Bénéficiaire d’un virement initié par lui-même ou par un tiers.
+
+Nous réceptionnons les Ordres de paiement par virement en euros qui vous sont destinés, puis nous les créditons sur le Compte cible au plus tard le Jour Ouvrable suivant le jour de réception.
+
+Nous pouvons être amenés à rejeter ou différer un virement à destination d’un de vos comptes si les informations obligatoires et réglementaires devant figurer sur l’ordre de virement transmis par le prestataire de l’émetteur du virement sont incomplètes ou invalides, ou en raison d’obligations légales et réglementaires — notamment celles liées à la lutte contre le blanchiment de capitaux et de financement du terrorisme.
+
+=== Émission d’Ordres de paiement par virement SEPA venant au débit d’un Compte
+
+==== Consentement
+
+Pour émettre un virement, vous devez nous transmettre un Ordre de paiement par virement. Pour cela, l’Utilisateur doit s’identifier sur son Espace de Travail et suivre la procédure d’émission de virement suivante :
+
+* suivre les indications et saisir correctement les informations relatives à l’Ordre de paiement par virement (identité du Bénéficiaire, IBAN, date d’exécution, etc.). Ces informations doivent être correctement saisies, en votre nom et sous votre responsabilité. Il faut notamment s’assurer que le compte destinataire identifié par l’IBAN renseigné a bien pour titulaire le Bénéficiaire désigné. Nous faisons au mieux pour détecter les erreurs ou les fraudes éventuelles mais n’en sommes pas responsables pour autant.
+* confirmer l’Ordre de paiement par virement, après confirmation par l’<<simple_authentification>> ou l’<<strong_authentification>>, selon les cas.
+
+La procédure d’émission de virement est l’unique moyen de transmission des Ordres de paiement par virement que nous acceptons.
+
+Votre consentement résulte de la confirmation de l’Ordre de paiement par virement dans l’Espace de travail.
+
+==== Exécution
+
+Une fois l’Ordre de paiement par virement valablement transmis, nous créditons le compte du <<payment_service_provider>> du Bénéficiaire au plus tard le premier <<business_day>> suivant la date de réception de l’Ordre de Virement. Cette date de réception correspond :
+
+* à la date de validation de l’Ordre de paiement par virement, pour un virement immédiat ;
+* à la date d’exécution renseignée, pour un virement programmé, sous réserve que le Compte à débiter dispose d’un provision suffisante et disponible.
+
+Nous pouvons être amenés à refuser ou différer l’exécution d’un Ordre de paiement par virement transmis si les informations obligatoires et réglementaires devant figurer sur l’ordre sont incomplètes ou invalides, ou en raison d’obligations légales et réglementaires - notamment celles liées à la lutte contre le blanchiment de capitaux et de financement du terrorisme. Dans une telle situation, à moins que la loi nous l’interdise, nous vous contactons dans les plus brefs délais pour vous indiquer le motif du refus ou différé d’exécution, et les possibilités d’y remédier.
+
+==== Révocation de l’ordre
+
+L’Ordre de paiement par virement SEPA est traité par lot. Nous vous offrons la possibilité de retirer votre consentement à l’exécution du virement avant que le lot soit traité. La demande de révocation de l’Ordre de paiement doit nécessairement arriver avant le traitement du lot contenant l’Ordre de paiement.
+
+
+=== Réception d’Ordres de paiement par prélèvement Core venant au débit d’un Compte
+
+==== Exécution
+
+Appelé officiellement « SEPA Direct Debit Core » (SDD Core), le prélèvement Core est un moyen de paiement qui donne la possibilité à un Bénéficiaire de prélever directement des fonds en euros sur le compte du Payeur, au sein de la zone SEPA.
+
+Nous recevons les Ordres de paiement par prélèvement Core transmis par le Prestataire de services de paiement du Bénéficiaire au plus tard le <<business_day>> précédant la date d’exécution du Prélèvement. Le prélèvement Core à venir s’affiche alors dans votre Espace de travail, et vous pouvez refuser le prélèvement Core à tout moment jusqu’à la fin du <<business_day>> précédant la date d’exécution. Nous exécutons l’Ordre de paiement par prélèvement Core reçu à la date d’exécution sous réserve que :
+
+* à l’instant où nous exécutons l’ordre, votre Compte dispose d’un provision suffisante et disponible ;
+* l’Ordre de paiement par prélèvement Core transmis par le <<payment_service_provider>> du Bénéficiaire soit complet et cohérent.
+
+L’Ordre de paiement par prélèvement Core contient un mandat par lequel :
+* vous autorisez le Bénéficiaire à nous transmettre des Ordres de paiement par prélèvements Core pour débiter votre Compte ;
+* vous nous autorisez à débiter votre Compte, en exécution des Ordres de paiement par prélèvements Core reçus de votre Bénéficiaire.
+
+Dès la réception d’un premier Ordre de paiement par prélèvement Core émis par un Bénéficiaire donné, le mandat de prélèvement Core associé apparaîtra dans votre Espace de travail dans la liste des « Mandats actifs ».
+
+Nous n’avons pas d’obligation de contrôle des données du mandat de prélèvement Core contenues dans l’Ordre de paiement par prélèvement Core. Nous pouvons être amenés à rejeter l’exécution d’un Ordre de paiement par prélèvement Core transmis si les conditions ci-dessus ne sont pas respectées, ou en raison d’obligations légales et réglementaires — notamment celles liées à la lutte contre le blanchiment de capitaux et de financement du terrorisme. Dans une telle situation, à moins que la loi nous l’interdise, nous vous contactons dans les plus brefs délais pour vous indiquer le motif du refus ou différé d’exécution, et les possibilités d’y remédier.
+
+==== Suspension et annulation du mandat
+
+Vous pouvez à tout moment suspendre un mandat de prélèvement Core actif, directement sur votre Espace de travail ; tous les Ordres de paiement par prélèvement Core futurs liés au mandat de prélèvement Core en question seront alors rejetés. Pour éviter tout différend avec le Bénéficiaire, nous vous conseillons de l’en informer préalablement.
+
+Il est de votre responsabilité, si vous souhaitez suspendre ou annuler un mandat de prélèvement Core, de suspendre ou annuler ce mandat directement dans votre Espace de travail. Aucun autre moyen pour suspendre un mandat de prélèvement Core ne pourra être accepté. En tout état de cause, nous ne sommes pas responsables des conséquences découlant d’un mandat de prélèvement Core non mis à jour dans votre Espace de travail.
+
+==== Caducité du mandat
+
+Un mandat de prélèvement Core pour lequel aucun nouvel Ordre de paiement par prélèvement Core n’a été présenté depuis 36 mois devient caduc et ne peut plus être utilisé.
+
+
+=== Réception d’Ordres de paiement par prélèvement B2B venant au débit d’un Compte
+
+[[b2b_direct_debit_consent]]
+==== Consentement
+
+Appelé officiellement « SEPA Direct Debit B2B » (SDD B2B), le prélèvement B2B est un moyen de paiement similaire au prélèvement Core, mais dont les conditions de remboursements sont limitées (les conditions de contestation sont listée au <<dispute>>). De ce fait, il est uniquement utilisé pour gérer l’encaissement des paiements entre entreprises. Il ne s’applique ni aux particuliers ni aux auto-entrepreneurs. Nous exigeons donc, pour l’exécuter, que l’Utilisateur se conforme à la procédure de validation de mandat B2B suivante :
+
+* avant le prélèvement B2B ponctuel (ou avant le premier prélèvement B2B, s’il est récurrent), accédez à l’onglet « Prélèvements » de votre Espace de travail puis cliquez sur « Nouveau mandat B2B » ;
+* suivez les instructions en nous transmettant la copie du mandat de prélèvement B2B valide - il doit notamment être signé par une personne physique habilitée ;
+* confirmez en saisissant les données du formulaire (nom du Bénéficiaire, numéro ICS et référence du mandat), à l’aide des informations présentes sur le mandat de prélèvement B2B joint à l’étape précédente ;
+* nous vérifions ensuite que le mandat de prélèvement B2B transmis est valide, et qu’il correspond aux données renseignées dans le formulaire.
+
+Cette procédure de validation de mandat de prélèvement B2B est la seule que nous acceptons. Son application par l’Utilisateur vaut consentement de votre part à l’exécution des Ordres de paiement par prélèvements B2B futurs, liés au mandat en question.
+
+Une fois cette procédure de validation de mandat de prélèvement B2B achevée, le mandat de prélèvement B2B apparaîtra dans votre Espace de travail dans la liste des « mandats actifs ».
+
+==== Exécution
+
+Nous recevons les Ordres de paiement par prélèvement B2B transmis par le <<payment_service_provider>> du <<beneficiary>> au plus tard le <<business_day>> précédant la date d’exécution de l’ordre. Le prélèvement B2B à venir s’affiche alors dans votre Espace de travail et vous pouvez, le cas échéant, refuser l’Ordre de paiement par prélèvement B2B jusqu’à 10h (heure de Paris, France) le <<business_day>> précédant la date d’exécution.
+
+Nous exécutons l’Ordre de paiement par prélèvement B2B reçu (ainsi que tout Ordre de paiement par prélèvement B2B ultérieurs, en cas de prélèvements récurrents) à la date d’exécution définie, sous réserve des conditions suivantes :
+
+* à l’instant où nous exécutons l’ordre, votre Compte dispose d’une provision suffisante et disponible ;
+* un mandat de prélèvement B2B ait été valablement ajouté à la liste de vos mandats, après avoir réalisé la procédure de validation de mandat B2B décrite au <<b2b_direct_debit_consent>> ;
+* l’Ordre de paiement par prélèvement B2B transmis par le <<payment_service_provider>> du <<beneficiary>> est complet et cohérent avec les données du formulaire saisi lors de la procédure de validation de mandat B2B.
+
+Nous pouvons être amenés à rejeter l’exécution d’un Ordre de paiement par prélèvement B2B transmis si les conditions ci-dessus ne sont pas respectées, ou en raison d’obligations légales et réglementaires - notamment celles liées à la lutte contre le blanchiment de capitaux et de financement du terrorisme. Dans une telle situation, à moins que la loi nous l’interdise, nous vous contactons dans les plus brefs délais pour vous indiquer le motif du refus ou différé d’exécution, et les possibilités d’y remédier.
+
+==== Suspension ou annulation du mandat
+
+Vous pouvez à tout moment suspendre un mandat de prélèvement B2B directement sur votre Espace de travail ; tous les Ordres de paiement par prélèvement B2B futurs liés au mandat de prélèvement B2B en question seront alors rejetés.
+
+Il est de votre responsabilité, si vous souhaitez suspendre ou annuler un mandat de prélèvement B2B, de suspendre ou d’annuler ce mandat directement dans votre Espace de travail. Aucun autre moyen pour suspendre un mandat de prélèvement B2B ne pourra être accepté. En conséquence, nous ne sommes pas responsables des conséquences découlant d’un mandat de prélèvement B2B non mis à jour dans votre Espace de travail.
+
+==== Caducité du mandat
+
+Un mandat de prélèvement B2B pour lequel aucun nouvel Ordre de paiement par prélèvement B2B n’a été présenté depuis 36 mois devient caduc et ne peut plus être utilisé. Vous devrez dans ce cas saisir et valider un nouveau mandat de prélèvement B2B via la procédure de validation de mandat B2B décrite au <<b2b_direct_debit_consent>>.
+
+[[dispute]]
+=== Contestation d’une Opération de Paiement
+
+De manière générale, en cas de contestation, nous ferons tout notre possible pour vous aider – et le cas échéant, vous rembourser. Vous trouverez ci-dessous les conditions et modalités applicables en matière de contestation d’Opération de Paiement, en fonction du caractère autorisé (ou non) et correctement exécuté (ou non) de l’Opération de Paiement concernée.
+
+À cet égard, si vous veniez à considérer qu’une Opération de Paiement est non autorisée ou mal exécutée, il vous appartient, par dérogation à L133-23 du Code monétaire et financier, d’en rapporter la preuve.
+
+==== Contestation d’une opération autorisée
+
+[cols="3*",options="header"]
+|===
+
+|
+| *Opération correctement exécutée*
+| *Opération mal exécutée*
+
+| *Virement SEPA émis*
+| Pas de droit au remboursement si vous contestez l’opération, mais nous ferons tout notre possible pour récupérer votre argent auprès du Bénéficiaire.
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 8 semaines maximum à compter de la date à laquelle les fonds ont été débités (par dérogation à L133-24 al. 1 du CMF).
+
+| *Prélèvement Core*
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 8 semaines maximum à compter de la date à laquelle les fonds ont été débités.
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 8 semaines à compter de la date à laquelle les fonds ont été débités (par dérogation à L133-24 al. 1 du CMF).
+
+| *Prélèvement B2B*
+| Pas de droit au remboursement si vous contestez l’opération (par dérogation à L133-25-1 du CMF, vous renoncez à votre droit de demander le remboursement de l’opération).
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 2 Jours ouvrés à compter de la date à laquelle les fonds ont été débités (par dérogation à L133-24 al. 1 du CMF et à L133-25-1 du CMF).
+
+|===
+
+==== Contestation d’une opération non-autorisée
+
+[cols="3*",options="header"]
+|===
+|
+| Perte ou vol des Données de Sécurité Personnalisées
+| Autre cas
+
+| *Virement SEPA émis*
+.3+| Pas de droit au remboursement pour toute perte subie avant notification de la perte ou du vol aux fins de blocage (par dérogation à L133-19 I). Droit au remboursement pour toute perte subie après notification de la perte ou du vol aux fins de blocage, selon les modalités décrites au <<private-security-data>>, dans la limite de 2 500 €, sauf agissement frauduleux de votre part ou si vous n’avez pas satisfait intentionnellement ou par négligence grave aux obligations visées aux articles L133-16 et L133-17 du CMF (par dérogation à L133-20).
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 8 semaines maximum à compter de la date à laquelle les fonds ont été débités (par dérogation de L133-24 al. 1 CMF) sauf si nous soupçonnons une fraude de votre part. Dans ce dernier cas, nous en informerons la Banque de France.
+
+| *Prélèvement Core*
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 8 semaines à compter de la date à laquelle les fonds ont été débités (par dérogation à L133-24 al. 1 du CMF), sauf si nous soupçonnons une fraude de votre part. Dans ce dernier cas, nous en informerons la Banque de France.
+
+| *Prélèvement B2B*
+| Droit au remboursement si vous contestez l’opération avant l’expiration d’une période de 2 Jours ouvrés à compter de la date à laquelle les fonds ont été débités (par dérogation à L133-24 al. 1 du CMF et à L133-25-1 du CMF) sauf si nous soupçonnons une fraude de votre part. Dans ce dernier cas, nous en informerons la Banque de France.
+
+|===
+
+== Responsabilité
+
+Nous ne pouvons être tenu responsable en cas d’utilisation d’informations qui n’auraient pas été mises à jour par vos soins en application du <<data_update>>.
+
+Nous faisons de notre mieux pour vous permettre une utilisation optimale de nos <<Services>>, dans le cadre d’une obligation de moyens. Nous ne pouvons cependant en aucun cas être tenu responsable si les Services sont interrompus, notamment en cas de contrôle, maintenance, surcharge ou dysfonctionnement dû à un tiers, et plus généralement en cas de force majeure ou d’événement échappant à notre contrôle raisonnable. De même, nous ne pouvons être déclaré responsable d’une quelconque difficulté d’émission, de réception, de transmission et, plus généralement, de toute perturbation du réseau Internet, des télécommunications ou informatique.
+
+Nous ne pouvons être tenus responsable de tout dommage résultant de la mise en œuvre d’obligations légales et réglementaires nous incombant (exemple : mesure de gel des avoirs, blocage d’une Opération de Paiement pour des motifs de lutte contre le blanchiment de capitaux et de financement du terrorisme, etc.), notamment en cas de retards ou non-exécution d’Opération de paiement.
+
+== Convention sur la preuve
+
+Vous reconnaissez et acceptez que le procédé de signature électronique utilisé pour conclure la Convention vous est opposable, manifeste votre consentement aux droits et obligations découlant de la Convention et produit des effets juridiques au même titre qu’une signature manuscrite. La Convention signée sous forme électronique a donc la qualité d’un document original ayant force probante.
+
+Vous reconnaissez et acceptez que nous pouvons vous adresser toutes correspondances par voie électronique et en particulier par courrier électronique (e-mail). Vous serez réputé avoir pris connaissance de manière incontestable des messages, informations et pièces attachées du seul fait de leur expédition à l’adresse e-mail renseignée dans l’Espace de travail.
+
+En outre, vous reconnaissez et acceptez que toutes les formes d’enregistrement résultant des moyens de communication utilisés - notamment les enregistrements informatiques (email, toute action réalisée par un Utilisateur dûment authentifié sur son Espace de travail), ainsi que les horodatages dans nos systèmes informatiques - sont admises comme moyen de preuve. Toute confirmation d’action de votre part via les procédures d’<<simple_authentification>> ou d’<<strong_authentification>> vaut accord de votre part.
+
+En particulier, s’agissant des règles de preuves recevables dans le cadre de l’exécution de nos Services, vous reconnaissez et acceptez ainsi:
+
+* que la preuve des Ordres de Paiement transmis après Authentification Simple ou Authentification Forte puisse être rapportée par la reproduction sur support informatique des éléments d’authentification que nous enregistrons, et qui font foi. Nous pourrons être amenés à certifier des dates d’exécution d’Opérations de Paiement sur le Compte par un procédé d’horodatage. Ce procédé constituera une preuve des données qu’il contient.
+* l’enregistrement de toutes les communications électroniques entre nous et vous à des fins de preuve et d’amélioration des Services ;
+* l’enregistrement des conversations téléphoniques, ceci notamment à des fins de suivi, de sécurité et de preuve (par exemple, pour vérifier la bonne compréhension de vos instructions via un contre-appel) et d’améliorations de nos Services.
+
+== Unité de compte
+
+Sauf dérogation expresse, tous les Comptes ouverts à votre nom, créditeurs ou débiteurs, forment les parties d’un compte unique et indivisible, même s’ils sont séparés et portent des numéros d’identification différents. Concrètement, cela signifie qu’en cas de clôture de notre relation d’affaires, le solde exigible correspond au solde de ce compte unique et indivisible.
+
+L’unité de compte n’empêche pas pour autant chacun de vos comptes de produire, le cas échéant, des intérêts, qu’ils soient débiteurs ou créditeurs.
+
+== Garantie des dépôts
+
+Vos dépôts sont couverts par un mécanisme de garantie géré par le Fonds de garantie des dépôts et de résolution (FGDR), qui vous indemnise jusqu’à 100 000 euros, quel que soit le nombre de Comptes ouverts chez nous. Ce sont exactement les mêmes conditions que dans toutes les autres banques. Pour en savoir plus, vous pouvez :
+
+* lire l’<<fdgr-appendix>> ;
+* lire notre {help-url}[aide en ligne] ;
+* consulter le https://www.garantiedesdepots.fr/[site du Fonds de garantie des dépôts et de résolution].
+
+== Secret professionnel
+
+Comme toute banque, nous sommes tenus au secret professionnel. Nous pouvons cependant être amenés à transmettre des données couvertes par le secret professionnel à certains prestataires à qui nous déléguons des tâches dans le strict respect de la loi.
+
+Vous pouvez par ailleurs à tout moment nous autoriser à lever le secret professionnel à l’égard d’une personne tierce en nous l’indiquant par écrit – c’est typiquement le cas, par exemple, lorsque vous signez la Procuration lors de l’ajout d’un nouvel Utilisateur. Cette personne tierce qui recevra les informations couvertes par le secret professionnel sera alors tenue à son tour de les conserver strictement confidentielles.
+
+== Données à caractère personnel
+
+Nous pouvons être amenés à recueillir des données à caractère personnel vous concernant (et plus particulièrement, les représentants légaux, les bénéficiaires effectifs et les Utilisateurs). Ces données peuvent être rassemblées, enregistrées, stockées, adaptées, consultées, transférées ou traitées et utilisées par nos soins. Nous sommes le responsable du traitement de ces données à caractère personnel. Les données à caractère personnel collectées et traitées par nos soins à l’ouverture de l’Espace de travail et dans le cours de son fonctionnement sont nécessaires :
+
+* à la conclusion et à l’exécution de la <<Convention>> et de l’ensemble des contrats souscrits dans le cadre de Convention ;
+* au respect et à l’exécution de nos obligations légales ou réglementaires ;
+* à la poursuite de nos intérêts légitimes ou ceux d’un tiers et ce, dans le respect de vos droits fondamentaux.
+
+Vous acceptez expressément que nous procédions au traitement des données à caractère personnel collectées et nous autorisez à communiquer toute information utile les concernant à toute personne contribuant à la réalisation des services fournis par nos soins notamment pour l’exécution des prestations de service ou tâches sous-traitées.
+
+Vous disposez notamment d’un droit d’accès et d’information, de rectification, d’effacement de vos données personnelles. Vous pouvez exercer vos droits, à tout moment et gratuitement, à intervalle raisonnable, auprès du délégué à la protection des données par courrier électronique à l’adresse suivante : {privacy-email}, ou par courrier à l’adresse suivante : « Memo Bank, Délégué à la protection des données, {memo-bank-address} ».
+
+Vous pouvez, en cas de litige, vous adresser à la Commission nationale de l’informatique et des libertés (CNIL). Pour saisir la CNIL, il convient d’adresser un simple courrier à l’attention du président de la CNIL, Commission nationale de l’informatique et des libertés – 3, Place de Fontenoy – TSA 20715 – 75334 PARIS CEDEX 07.
+
+== Droit de rétractation
+
+Dans l’hypothèse où la Convention aurait été conclue dans le cadre d’une opération de <<cold_call>>, vous disposez d’un délai de 14 jours à compter de sa signature pour exercer votre droit de rétractation, en nous envoyant un email à l’adresse {withdrawal-email}. Vous êtes alors tenus de nous restituer toutes les éventuelles dettes en cours (notamment le solde de vos Comptes s’il est débiteur), tandis que nous sommes tenus de vous restituer le solde de vos Comptes, s’il est créditeur. Toute somme que vous nous devrez produira intérêt au taux d’intérêt fixé dans les Conditions tarifaires jusqu’au parfait paiement, comme prévu pour la clôture de vos Comptes au <<termination>>.
+
+
+== Compensation
+
+Vous nous autorisez à compenser toute créance certaine, liquide et exigible que nous détenons à votre égard avec le solde créditeur de vos Comptes. Une telle compensation pourra être effectuée à tout moment mais aussi lors de la clôture du Compte.
+
+
+== Réclamations
+
+Si vous avez une réclamation, vous pouvez contacter notre service client par courrier électronique : contact@memo.bank.
+
+
+[[termination]]
+== Résiliation
+
+La Convention peut être résiliée à tout moment, par vous ou par nous, sous réserve d’un préavis de 30 jours, sans motif nécessaire.
+
+Si la résiliation est à notre initiative, nous vous en informerons par email. Si vous souhaitez résilier, il suffit de nous adresser la demande par email à l’adresse {termination-email}.
+
+La Convention sera résiliée de plein droit et sans mise en demeure préalable dans les cas suivants :
+
+* non-respect des dispositions de la Convention ;
+* fonctionnement anormal d’un Compte ;
+* faute grave répréhensible de votre part. Par exemple : activités illicites, agissements frauduleux ou fausse déclaration ;
+* dissolution, liquidation judiciaire.
+
+La résiliation de la Convention entraîne la clôture de vos Comptes.
+
+À la clôture du Compte, vous vous engagez :
+
+* en cas de solde créditeur sur vos Comptes, à nous indiquer l’identifiant du compte bancaire vers lequel vous transférer, par virement, le solde de vos Comptes. Le solde créditeur est restitué sous déduction des opérations en cours, de tout intérêt, frais et commissions qui pourraient nous être dus.
+* en cas de solde débiteur sur votre Compte, à procéder au règlement de tout solde débiteur existant au jour de la clôture, étant précisé que les intérêts courent sur ce solde débiteur au taux appliqué au découvert non autorisé au jour de la clôture, conformément à nos Conditions tarifaires en vigueur. Par application de l’article 1343-2 du Code civil, les intérêts dus pour une année entière produiront eux-mêmes intérêts. Ils sont exigibles à tout instant et ce jusqu’à paiement complet.
+
+== Loi applicable
+
+La loi applicable est la loi française. Tout litige relatif à cette Convention relève, à défaut de résolution amiable, de la Cour d’Appel de Paris.
+
+
+[[fdgr-appendix]]
+[appendix]
+[.full-width.new-page]
+== Informations générales sur la protection des dépôts
+
+:fn-gpl: footnote:general-protection-limit[Limite générale de la protection : si un dépôt est indisponible parce qu’un établissement de crédit n’est pas en mesure d’honorer ses obligations financières, les déposants sont indemnisés par un système de garantie des dépôts. L’indemnité est plafonnée à 100 000 € par personne et par établissement de crédit. Cela signifie que tous les comptes créditeurs auprès d’un même établissement de crédit sont additionnés afin de déterminer le montant éligible à la garantie (sous réserve de l’application des dispositions légales ou contractuelles relatives à la compensation avec ses comptes débiteurs). Le plafond d’indemnisation est appliqué à ce total. Les dépôts et les personnes éligibles à cette garantie sont mentionnés à l’article L. 312-4-1 du code monétaire et financier (pour toute précision sur ce point, voir le site internet du Fonds de garantie des dépôts et de résolution). Par exemple, si un client détient un compte d’épargne éligible (hors livret A, livret de développement durable et livret d’épargne populaire) dont le solde est de 90 000 € et un compte courant dont le solde est de 20 000 €, l’indemnisation sera plafonnée à 100 000 €. Cette méthode s’applique également lorsqu’un établissement de crédit opère sous plusieurs marques commerciales.]
+
+:fn-particular-cases: footnote:particular-cases[Principaux cas particuliers : les comptes joints sont répartis entre les cotitulaires à parts égales, sauf stipulation contractuelle prévoyant une autre clé de répartition La part revenant à chacun est ajoutée à ses comptes ou dépôts propres et ce total bénéficie de la garantie jusqu’à 100 000 €. Les comptes sur lesquels deux personnes au moins ont des droits en leur qualité d’indivisaire, d’associé d’une société, de membre d’une association ou de tout groupement similaire, non dotés de la personnalité morale, sont regroupés et traités comme ayant été effectués par un déposant unique distinct des indivisaires ou associés. Les comptes appartenant à un entrepreneur individuel à responsabilité limité (EIRL), ouverts afin d’y affecter le patrimoine et les dépôts bancaires de son activité professionnelle, sont regroupés et traités comme ayant été effectués par un déposant unique distinct des autres comptes de cette personne. Les sommes inscrites sur les livrets A, les livrets de développement durable (LDD) et les livret d’épargne populaire (LEP) sont garanties indépendamment du plafond cumulé de 100 000 € applicable aux autres comptes. Cette garantie porte sur les sommes déposées sur l’ensemble de ces livrets pour un même titulaire ainsi que les intérêts afférents à ces sommes dans la limite de 100 000 € (pour toute précision voir le site internet du Fonds de garantie des dépôts et de résolution). Par exemple, si un client détient un livret A et un LDD dont le solde total s’élève à 30 000 € ainsi qu’un compte courant dont le solde est de 90 000 €, il sera indemnisé, d’une part, à hauteur de 30 000 € pour ses livrets et, d’autre part, à hauteur de 90 000 € pour son compte courant. Certains dépôts à caractère exceptionnel (somme provenant d’une transaction immobilière réalisée sur un bien d’habitation appartenant au déposant ; somme constituant la réparation en capital d’un dommage subi par le déposant ; somme constituant le versement en capital d’un avantage-retraite ou d’un héritage) bénéficient d’un rehaussement de la garantie au-delà de 100 000 €, pendant une durée limitée à la suite de leur encaissement (pour toute précision sur ce point, voir le site internet du Fonds de garantie des dépôts et de résolution).]
+
+:fn-indemnisation: footnote:indemnisation[Indemnisation : le Fonds de garantie des dépôts et de résolution met l’indemnisation à disposition des déposants et bénéficiaires de la garantie, pour les dépôts couverts par celle-ci, sept jours ouvrables à compter de la date à laquelle l’Autorité de contrôle prudentiel et de résolution fait le constat de l’indisponibilité des dépôts de l’établissement adhérent en application du premier alinéa du I de l’article L. 312-5 du code monétaire et financier. Ce délai de sept jours ouvrables sera applicable à compter du 1er juin 2016 ; jusqu’à cette date, ce délai est de vingt jours ouvrables. Ce délai concerne les indemnisations qui n’impliquent aucun traitement particulier ni aucun complément d’information nécessaire à la détermination du montant indemnisable ou à l’identification du déposant. Si un traitement particulier ou un complément d’information sont nécessaires, le versement de l’indemnisation intervient aussitôt que possible. La mise à disposition se fait, au choix du Fonds de garantie des dépôts et de résolution : (i) soit par l’envoi d’une lettre-chèque en recommandé avec avis de réception, (ii) soit par mise en ligne des informations nécessaires sur un espace internet sécurisé, ouvert spécialement à cet effet par le Fonds et accessible à partir de son site officiel (cf. ci-après), afin de permettre au bénéficiaire de faire connaître le nouveau compte bancaire sur lequel il souhaite que l’indemnisation lui soit versée par virement.]
+
+Le principe général est que tous les clients, qu’ils soient des particuliers ou des entreprises, que leurs comptes soient ouverts à titre personnel ou à titre professionnel, sont couverts par le Fonds de garantie des dépôts et de résolution (FGDR). Les exceptions applicables à certains dépôts ou à certains produits sont indiquées sur le site internet du FGDR. Memo Bank vous informe sur demande si ses produits sont garantis ou non. Si un dépôt est garanti, nous vous le confirmons également sur le relevé de compte envoyé périodiquement et au moins une fois par an.
+
+[cols="2*"]
+|===
+|La protection des dépôts effectués auprès de Memo Bank est assurée par :
+|Le Fonds de garantie des dépôts et de résolution (FGDR)
+
+|Plafond de la protection :
+|100 000 € par déposant et par établissement de crédit{fn-gpl}
+
+|Si vous avez plusieurs comptes dans le même établissement de crédit :
+|Tous vos dépôts enregistrés sur vos comptes ouverts dans le même établissement de crédit entrant dans le champ de la garantie sont additionnés pour déterminer le montant éligible à la garantie ; le montant de l’indemnisation est plafonné à 100 000 €footnote:general-protection-limit[]
+
+|Si vous détenez un compte joint avec une ou plusieurs autres personnes :
+|Le plafond de 100 000 € s’applique à chaque déposant séparément. Le solde du compte joint est réparti entre ses cotitulaires ; la part de chacun est additionnée avec ses avoirs propres pour le calcul du plafond de garantie qui s’applique à lui{fn-particular-cases}.
+
+|Autres cas particuliers :
+|Voir notefootnote:particular-cases[]
+
+|Délai d’indemnisation en cas de défaillance de l’établissement de crédit :
+|Sept jours ouvrables{fn-indemnisation}
+
+|Monnaie de l’indemnisation :
+|Euros
+
+|Correspondant :
+|Fonds de garantie des dépôts et de résolution (FGDR)
+65, rue de la Victoire, 75009 Paris
+Téléphone : 01-58-18-38-08
+Courriel : contact@garantiedesdepots.fr
+
+|Pour en savoir plus :
+|Reportez-vous au site internet du FGDR :
+http://www.garantiedesdepots.fr/
+
+|Accusé de réception par le déposant :
+|Il est accusé réception lors de l’acceptation des conditions générales de la convention de Compte Courant (mais pas lors de l’envoi annuel du formulaire)
+
+|===
